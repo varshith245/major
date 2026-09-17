@@ -1,0 +1,200 @@
+{
+  "intents": [
+    "scheme_search",
+    "eligibility_check",
+    "document_query",
+    "comparison",
+    "greeting"
+  ],
+  "training_data": [
+    {
+      "text": "What schemes are available for farmers in Karnataka?",
+      "intent": "scheme_search",
+      "entities": { "category": "Farmer", "state": "Karnataka" }
+    },
+    {
+      "text": "Show me welfare schemes for college students",
+      "intent": "scheme_search",
+      "entities": { "category": "Student" }
+    },
+    {
+      "text": "List government schemes for women entrepreneurs",
+      "intent": "scheme_search",
+      "entities": { "category": "Women Entrepreneur" }
+    },
+    {
+      "text": "Find healthcare insurance schemes provided by central government",
+      "intent": "scheme_search",
+      "entities": { "category": "Healthcare", "level": "Central" }
+    },
+    {
+      "text": "Tell me about housing schemes for rural families",
+      "intent": "scheme_search",
+      "entities": { "category": "Housing", "area": "Rural" }
+    },
+    {
+      "text": "What are the latest pension schemes for senior citizens?",
+      "intent": "scheme_search",
+      "entities": { "category": "Senior Citizen" }
+    },
+    {
+      "text": "Find schemes for street vendors in Bangalore",
+      "intent": "scheme_search",
+      "entities": { "occupation": "Street Vendor", "city": "Bangalore" }
+    },
+    {
+      "text": "Are there any loan schemes without collateral for small business?",
+      "intent": "scheme_search",
+      "entities": { "category": "MSME & Entrepreneurship" }
+    },
+    {
+      "text": "Search for girl child savings schemes in India",
+      "intent": "scheme_search",
+      "entities": { "category": "Women & Child" }
+    },
+    {
+      "text": "Show me all Karnataka guarantee schemes",
+      "intent": "scheme_search",
+      "entities": { "state": "Karnataka" }
+    },
+
+    {
+      "text": "Am I eligible for PM Kisan if I have 2 acres of land?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "PM-KISAN", "landholding": "2 acres" }
+    },
+    {
+      "text": "Can I get Ayushman Bharat card with an income of 1.8 lakh per year?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "Ayushman Bharat", "income": "180000" }
+    },
+    {
+      "text": "I am 62 years old and have a BPL card, can I apply for old age pension?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "Old Age Pension", "age": 62, "bpl_status": true }
+    },
+    {
+      "text": "I completed B.Tech in 2024 and I am unemployed in Karnataka, am I eligible for Yuva Nidhi?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "Yuva Nidhi", "qualification": "B.Tech", "pass_year": 2024, "state": "Karnataka" }
+    },
+    {
+      "text": "Is a woman earning 30k a month eligible for Gruha Lakshmi scheme?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "Gruha Lakshmi", "gender": "Female", "income": "30000" }
+    },
+    {
+      "text": "Check my eligibility for PMAY Gramin housing subsidy",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "PMAY-G" }
+    },
+    {
+      "text": "I want to take a 5 lakh loan for my shop, can I get Mudra loan Kishore category?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "PMMY", "loan_amount": 500000, "category": "Kishore" }
+    },
+    {
+      "text": "My daughter is 6 years old, can I open a Sukanya Samriddhi account?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "Sukanya Samriddhi Yojana", "child_age": 6, "gender": "Female" }
+    },
+    {
+      "text": "Can tenant farmers get PM Fasal Bima Yojana crop insurance?",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "PMFBY", "occupation": "Tenant Farmer" }
+    },
+    {
+      "text": "Check if I can get 200 units free electricity under Gruha Jyothi in Mysore",
+      "intent": "eligibility_check",
+      "entities": { "scheme": "Gruha Jyothi", "state": "Karnataka", "city": "Mysore" }
+    },
+
+    {
+      "text": "What documents are required to apply for Ayushman card?",
+      "intent": "document_query",
+      "entities": { "scheme": "Ayushman Bharat" }
+    },
+    {
+      "text": "List the documents needed for PM Kisan registration",
+      "intent": "document_query",
+      "entities": { "scheme": "PM-KISAN" }
+    },
+    {
+      "text": "What papers do I need to submit for Mudra loan in SBI?",
+      "intent": "document_query",
+      "entities": { "scheme": "PMMY" }
+    },
+    {
+      "text": "Document checklist for Karnataka Yuva Nidhi registration on Seva Sindhu",
+      "intent": "document_query",
+      "entities": { "scheme": "Yuva Nidhi" }
+    },
+    {
+      "text": "What proof is required for Sukanya Samriddhi Yojana opening?",
+      "intent": "document_query",
+      "entities": { "scheme": "Sukanya Samriddhi Yojana" }
+    },
+    {
+      "text": "What documents do I need for PMAY Urban housing subsidy?",
+      "intent": "document_query",
+      "entities": { "scheme": "PMAY-U" }
+    },
+    {
+      "text": "Give me the required certificate checklist for Old Age Pension",
+      "intent": "document_query",
+      "entities": { "scheme": "IGNOAPS" }
+    },
+    {
+      "text": "What IDs are accepted for PM Vishwakarma CSC enrollment?",
+      "intent": "document_query",
+      "entities": { "scheme": "PM-VISHWAKARMA" }
+    },
+
+    {
+      "text": "Compare PM Awas Yojana Gramin vs Urban",
+      "intent": "comparison",
+      "entities": { "scheme1": "PMAY-G", "scheme2": "PMAY-U" }
+    },
+    {
+      "text": "What is the difference between PM Jeevan Jyoti Bima and PM Suraksha Bima Yojana?",
+      "intent": "comparison",
+      "entities": { "scheme1": "PMJJBY", "scheme2": "PMSBY" }
+    },
+    {
+      "text": "Compare Mudra Loan vs Stand-Up India for new business",
+      "intent": "comparison",
+      "entities": { "scheme1": "PMMY", "scheme2": "STANDUP-INDIA" }
+    },
+    {
+      "text": "Difference between Atal Pension Yojana and PM Kisan Maandhan",
+      "intent": "comparison",
+      "entities": { "scheme1": "APY", "scheme2": "PM-KMY" }
+    },
+    {
+      "text": "Which scheme is better for girl child: Sukanya Samriddhi or Post Office RD?",
+      "intent": "comparison",
+      "entities": { "scheme1": "Sukanya Samriddhi Yojana", "scheme2": "Post Office RD" }
+    },
+
+    {
+      "text": "Hello, how can you help me today?",
+      "intent": "greeting",
+      "entities": {}
+    },
+    {
+      "text": "Namaste, can you assist me in Kannada or Hindi?",
+      "intent": "greeting",
+      "entities": {}
+    },
+    {
+      "text": "Hi, I am looking for government benefits for my family",
+      "intent": "greeting",
+      "entities": {}
+    },
+    {
+      "text": "Good morning assistant",
+      "intent": "greeting",
+      "entities": {}
+    }
+  ]
+}

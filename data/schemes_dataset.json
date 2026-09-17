@@ -1,0 +1,4398 @@
+[
+  {
+    "scheme_id": "SCHEME-59E042C4",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.1",
+    "created_at": null,
+    "updated_at": "2026-09-17 13:49:11.386226",
+    "updated_by": "admin@egovseva.gov.in"
+  },
+  {
+    "scheme_id": "GOI-AGRI-001",
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+    "short_name": "PM-KISAN",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Agriculture & Farmers",
+    "description": "PM-KISAN provides income support of Rs 6,000 per year to all landholding farmer families across India in three equal installments of Rs 2,000 every four months directly into their bank accounts via DBT.",
+    "key_benefits": "Financial support of ₹6,000 per annum paid in 3 installments of ₹2,000 each every 4 months via Direct Benefit Transfer (DBT).",
+    "benefit_amount": 6000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 100,
+      "gender": "Any",
+      "occupation": [
+        "Farmer",
+        "Cultivator"
+      ],
+      "max_annual_income": null,
+      "landholding_required": true,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Institutional landholders",
+        "Farmer families holding constitutional posts",
+        "Former and present Ministers, MPs, MLAs, MLCs, Mayors, District Panchayat Chairpersons",
+        "Serving or retired officers/employees of Central/State Govts (excluding Multi-Tasking Staff/Class IV/Group D)",
+        "Income tax payers in last assessment year",
+        "Professionals (Doctors, Engineers, Lawyers, CAs, Architects) registered with professional bodies"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Ownership Documents (RoR / Khasra / Khatauni / Jamabandi)",
+      "Active Bank Account Passbook linked with Aadhaar & NPCI DBT enabled",
+      "Mobile Number linked with Aadhaar",
+      "Citizenship / Domicile Certificate"
+    ],
+    "optional_documents": [
+      "Kisan Credit Card (KCC)",
+      "Ration Card"
+    ],
+    "application_link": "https://pmkisan.gov.in",
+    "offline_process": "Visit nearest Common Service Centre (CSC) or State Agriculture Department Nodal Officer / Revenue Office with land records and Aadhaar.",
+    "grievance_contact": "155261 / 011-24300606 / pmkisan-ict@gov.in",
+    "processing_time_days": 15,
+    "tags": [
+      "farmer",
+      "agriculture",
+      "financial assistance",
+      "dbt",
+      "kisan",
+      "pm kisan",
+      "crop subsidy",
+      "income support"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-HLTH-002",
+    "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+    "short_name": "AB-PMJAY",
+    "ministry": "Ministry of Health and Family Welfare",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Healthcare",
+    "description": "AB-PMJAY provides a health cover of Rs 5 lakh per family per year for secondary and tertiary care hospitalization to over 12 crore poor and vulnerable families (bottom 40% of population) based on SECC 2011 criteria.",
+    "key_benefits": "Cashless and paperless access to healthcare services up to ₹5,00,000 per family per year across 27,000+ empaneled public and private hospitals across India.",
+    "benefit_amount": 500000.0,
+    "eligibility_criteria": {
+      "min_age": 0,
+      "max_age": 120,
+      "gender": "Any",
+      "occupation": [
+        "Any",
+        "Daily Wage Earner",
+        "Laborer",
+        "Domestic Worker",
+        "Artisan",
+        "Rural Household"
+      ],
+      "max_annual_income": 250000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Families owning motorized vehicle (car, tractor, fishing boat)",
+        "Families with government employees",
+        "Families paying income tax or professional tax",
+        "Families owning more than 5 acres of irrigated land"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card of all family members",
+      "Ration Card / Family ID card / SECC verification letter",
+      "Mobile Number",
+      "Government photo identity card"
+    ],
+    "optional_documents": [
+      "BPL Certificate",
+      "Income Certificate"
+    ],
+    "application_link": "https://nha.gov.in / https://beneficiary.nha.gov.in",
+    "offline_process": "Visit any Empaneled Health Care Provider (EHCP) hospital helpdesk (Ayushman Mitra) or Common Service Centre (CSC) with Ration Card and Aadhaar.",
+    "grievance_contact": "14555 / 1800-111-565 / pmjay@nha.gov.in",
+    "processing_time_days": 1,
+    "tags": [
+      "health",
+      "hospital",
+      "ayushman card",
+      "medical insurance",
+      "treatment",
+      "surgery",
+      "bpl",
+      "free healthcare",
+      "5 lakh"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-HOUS-003",
+    "scheme_name": "Pradhan Mantri Awas Yojana - Gramin",
+    "short_name": "PMAY-G",
+    "ministry": "Ministry of Rural Development",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Housing & Shelter",
+    "description": "PMAY-G aims to provide a pucca house with basic amenities to all houseless households and households living in kutcha and dilapidated houses in rural areas.",
+    "key_benefits": "Financial assistance of ₹1,20,000 in plain areas and ₹1,30,000 in hilly/difficult/North-Eastern/IAP districts, plus ₹12,000 for toilet construction under SBM-G, and 90-95 days of unskilled labor wage under MGNREGS (~₹25,000).",
+    "benefit_amount": 157000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 100,
+      "gender": "Any",
+      "occupation": [
+        "Rural Household",
+        "Agricultural Laborer",
+        "Artisan",
+        "Unorganized Worker"
+      ],
+      "max_annual_income": 180000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Families owning a pucca house anywhere in India",
+        "Families owning motorized 2/3/4 wheeler or agricultural equipment (tractor)",
+        "Families with members earning > Rs 15,000/month or paying income tax",
+        "Families with government employees"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Bank Account Passbook (Aadhaar & DBT linked)",
+      "MGNREGA Job Card Number",
+      "Consent for Aadhaar usage",
+      "Swachh Bharat Mission (SBM) registration number",
+      "Land ownership / Land possession certificate for house plot"
+    ],
+    "optional_documents": [
+      "BPL Ration Card",
+      "Caste Certificate (for SC/ST priority)"
+    ],
+    "application_link": "https://pmayg.nic.in",
+    "offline_process": "Applications are selected via Gram Sabha based on Awas+ survey list. Citizens can register through Gram Panchayat Secretary or Block Development Office (BDO).",
+    "grievance_contact": "1800-11-6446 / support-pmayg@gov.in",
+    "processing_time_days": 30,
+    "tags": [
+      "housing",
+      "pucca house",
+      "rural shelter",
+      "pmay",
+      "awas yojana",
+      "home subsidy",
+      "gramin awas"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-HOUS-004",
+    "scheme_name": "Pradhan Mantri Awas Yojana - Urban",
+    "short_name": "PMAY-U",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Housing & Shelter",
+    "description": "PMAY-U addresses urban housing shortage among EWS/LIG and MIG categories by ensuring a pucca house to all eligible urban households through Credit Linked Subsidy Scheme (CLSS), Beneficiary Led Construction (BLC), Affordable Housing in Partnership (AHP), and In-Situ Slum Redevelopment (ISSR).",
+    "key_benefits": "Up to ₹2.67 lakh interest subsidy on home loans (under CLSS) or direct central assistance of ₹1.5 lakh for new house construction / enhancement under BLC.",
+    "benefit_amount": 267000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 70,
+      "gender": "Any",
+      "occupation": [
+        "Any",
+        "Salaried",
+        "Self-Employed",
+        "Urban Laborer",
+        "Street Vendor"
+      ],
+      "max_annual_income": 1800000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "The beneficiary family should not own a pucca house in their name or in the name of any member of their family anywhere in India."
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card of all family members",
+      "Income Certificate / Salary Slips / ITR / Form 16",
+      "Bank Account Statement (last 6 months)",
+      "Proof of Land / Plot Ownership (for BLC component)",
+      "Affidavit affirming no other pucca house owned in India",
+      "Address Proof / Voter ID / Electricity Bill"
+    ],
+    "optional_documents": [
+      "Caste / Disability Certificate (for affirmative priority)"
+    ],
+    "application_link": "https://pmaymis.gov.in",
+    "offline_process": "Visit Urban Local Body (ULB) / Municipal Corporation Office or Common Service Centre (CSC).",
+    "grievance_contact": "011-23063285 / 011-23060484 / pmay-mhua@gov.in",
+    "processing_time_days": 45,
+    "tags": [
+      "urban housing",
+      "home loan subsidy",
+      "clss",
+      "pmay urban",
+      "flat subsidy",
+      "housing loan",
+      "pucca house"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-WMN-005",
+    "scheme_name": "Sukanya Samriddhi Yojana",
+    "short_name": "SSY",
+    "ministry": "Ministry of Finance",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Women & Child",
+    "description": "A government-backed small deposit savings scheme launched under the 'Beti Bachao Beti Padhao' campaign to secure the financial future, higher education, and marriage of the girl child with attractive tax-free interest rates (currently 8.2% p.a.).",
+    "key_benefits": "High compound interest rate (8.2% p.a.), Section 80C tax deduction up to ₹1.5 lakh/year, completely tax-exempt interest and maturity amount (EEE status), deposits from ₹250 to ₹1.5 lakh per financial year.",
+    "benefit_amount": 150000.0,
+    "eligibility_criteria": {
+      "min_age": 0,
+      "max_age": 10,
+      "gender": "Female",
+      "occupation": [
+        "Student",
+        "Child"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Girl child age exceeding 10 years at time of account opening",
+        "Non-Resident Indians (NRIs) or OCI cardholders",
+        "More than two accounts per family without certified proof of twin/triplet girls"
+      ]
+    },
+    "required_documents": [
+      "Birth Certificate of the girl child (with name registered)",
+      "Identity Proof of Parent / Legal Guardian (Aadhaar Card, PAN Card, Passport)",
+      "Address Proof of Parent / Legal Guardian (Aadhaar, Electricity Bill, Voter ID)",
+      "Passport size photographs of girl child and guardian",
+      "Medical Certificate in case of twin/triplet girls"
+    ],
+    "optional_documents": [],
+    "application_link": "https://www.indiapost.gov.in / Any Nationalised Bank",
+    "offline_process": "Visit any Post Office branch or authorized commercial bank (SBI, PNB, BoB, Canara, etc.) with the application form and required documents.",
+    "grievance_contact": "1800-266-6868 (India Post Toll Free) / doppw@nic.in",
+    "processing_time_days": 2,
+    "tags": [
+      "girl child",
+      "savings",
+      "education",
+      "sukanya samriddhi",
+      "tax saving",
+      "80c",
+      "post office scheme",
+      "high interest"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-MSME-006",
+    "scheme_name": "Pradhan Mantri Mudra Yojana",
+    "short_name": "PMMY",
+    "ministry": "Ministry of Finance",
+    "level": "Central",
+    "state": "All-India",
+    "category": "MSME & Entrepreneurship",
+    "description": "PMMY provides collateral-free loans up to Rs 20 lakh to non-corporate, non-farm small and micro enterprises across three categories: Shishu (up to Rs 50,000), Kishore (Rs 50,000 to Rs 5 lakh), and Tarun (Rs 5 lakh to Rs 10/20 lakh).",
+    "key_benefits": "Collateral-free micro loans from ₹10,000 up to ₹20,00,000 with low interest rates, no processing fee for Shishu loans, and Mudra Debit Card for working capital flexibility.",
+    "benefit_amount": 2000000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 65,
+      "gender": "Any",
+      "occupation": [
+        "Self-Employed",
+        "Small Business Owner",
+        "Artisan",
+        "Shopkeeper",
+        "Trader",
+        "Service Provider",
+        "Food Processor",
+        "Manufacturer"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Defaulters with any bank or financial institution",
+        "Large corporations or non-micro enterprises",
+        "Direct farming/crop production activities (allied agriculture like dairy/poultry is allowed)"
+      ]
+    },
+    "required_documents": [
+      "Proof of Identity (Aadhaar Card / Voter ID / PAN Card / Passport)",
+      "Proof of Residence (Electricity bill / Telephone bill / Aadhaar)",
+      "Business Identity and Address Proof (Trade License / Registration Certificate / Udyam Registration)",
+      "Bank Statement for the last 6 months",
+      "Quotation of machinery/items to be purchased (for term loans)",
+      "Proof of SC/ST/OBC category (if applicable)",
+      "Balance Sheet / Profit & Loss statement for last 2 years (for Tarun loans)"
+    ],
+    "optional_documents": [
+      "Project Report / Business Plan",
+      "ITR for past 2 years (for loans above ₹2 lakh)"
+    ],
+    "application_link": "https://www.udyamimitra.in / https://www.mudra.org.in",
+    "offline_process": "Visit any Public Sector Bank, Private Bank, Regional Rural Bank (RRB), Small Finance Bank (SFB), or Micro Finance Institution (MFI).",
+    "grievance_contact": "1800-180-1111 / help@mudra.org.in",
+    "processing_time_days": 14,
+    "tags": [
+      "mudra loan",
+      "business loan",
+      "startup",
+      "collateral free loan",
+      "shishu",
+      "kishore",
+      "tarun",
+      "msme",
+      "micro finance"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-SOC-007",
+    "scheme_name": "Indira Gandhi National Old Age Pension Scheme",
+    "short_name": "IGNOAPS",
+    "ministry": "Ministry of Rural Development",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Social Welfare & Pensions",
+    "description": "A non-contributory monthly pension scheme under National Social Assistance Programme (NSAP) providing financial security to elderly citizens living Below Poverty Line (BPL).",
+    "key_benefits": "Monthly pension of ₹200 to ₹500 (Central component) supplemented by ₹500 to ₹1,500 (State contribution), totaling ₹1,000 to ₹2,000/month directly deposited into bank account.",
+    "benefit_amount": 18000.0,
+    "eligibility_criteria": {
+      "min_age": 60,
+      "max_age": 120,
+      "gender": "Any",
+      "occupation": [
+        "Senior Citizen",
+        "Retired",
+        "Unemployed",
+        "Elderly"
+      ],
+      "max_annual_income": 36000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Citizens receiving regular government/pension benefits from other government services",
+        "Non-BPL households or households paying income tax"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Age Proof (Birth Certificate, Voter ID, Aadhaar, School Leaving Certificate, or Medical Board Age Certificate)",
+      "BPL Ration Card / BPL Certificate verified by local authority",
+      "Bank Account Passbook (Aadhaar & DBT linked)",
+      "Passport size photographs",
+      "Domicile / Residence Certificate"
+    ],
+    "optional_documents": [
+      "Income Certificate from Tehsildar / Revenue Officer"
+    ],
+    "application_link": "https://nsap.nic.in",
+    "offline_process": "Submit application to the Gram Panchayat / Village Accountant / Block Development Officer (BDO) in rural areas, or to Municipal Ward Office / District Social Welfare Officer in urban areas.",
+    "grievance_contact": "1800-180-1551 / helpdesk-nsap@gov.in",
+    "processing_time_days": 30,
+    "tags": [
+      "old age pension",
+      "senior citizen",
+      "monthly pension",
+      "bpl",
+      "nsap",
+      "vriddha pension",
+      "social security"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-FIN-008",
+    "scheme_name": "Pradhan Mantri Suraksha Bima Yojana",
+    "short_name": "PMSBY",
+    "ministry": "Ministry of Finance",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Financial Inclusion & Insurance",
+    "description": "An accidental death and disability insurance scheme offering ₹2 lakh coverage for accidental death and permanent total disability, and ₹1 lakh for permanent partial disability, at an annual premium of only ₹20.",
+    "key_benefits": "₹2 Lakh coverage for accidental death or total permanent disability and ₹1 Lakh for partial disability for an annual premium of just ₹20 auto-debited from bank account.",
+    "benefit_amount": 200000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 70,
+      "gender": "Any",
+      "occupation": [
+        "Any"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Age below 18 or above 70 years",
+        "Non-availability of sufficient balance in bank account at the time of auto-debit (May 31st each year)",
+        "Closure of bank account"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card (Primary KYC)",
+      "Savings Bank Account / Post Office Account details",
+      "Nominee Details and Nominee Aadhaar/Identity Proof",
+      "Auto-debit Consent Form"
+    ],
+    "optional_documents": [],
+    "application_link": "https://www.jansuraksha.gov.in",
+    "offline_process": "Visit the bank branch or post office where you hold a savings account and submit the 1-page PMSBY consent-cum-enrollment form, or activate via NetBanking / Mobile Banking app.",
+    "grievance_contact": "1800-180-1111 / 1800-110-001 / jansuraksha-grievance@nic.in",
+    "processing_time_days": 1,
+    "tags": [
+      "insurance",
+      "accident insurance",
+      "pmsby",
+      "20 rupees",
+      "2 lakh",
+      "jansuraksha",
+      "accidental death cover"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-FIN-009",
+    "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "short_name": "PMJJBY",
+    "ministry": "Ministry of Finance",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Financial Inclusion & Insurance",
+    "description": "A life insurance scheme offering ₹2 lakh life cover on death due to any reason (natural or accidental) to all savings bank account holders aged 18 to 50 years at an annual premium of ₹436.",
+    "key_benefits": "Life cover of ₹2,00,000 payable to the nominee upon the insured member's death due to any cause (disease, natural death, accident) for ₹436/year.",
+    "benefit_amount": 200000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 50,
+      "gender": "Any",
+      "occupation": [
+        "Any"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Age below 18 or above 50 years (coverage continues up to age 55 if enrolled prior to age 50)",
+        "30-day initial lien period for non-accidental death claims from enrollment date",
+        "Insufficient bank balance during auto-debit window"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Savings Bank Account / Post Office Savings Account",
+      "Nominee Details (Name, Relationship, DOB, Aadhaar/ID)",
+      "Self-certification of good health (built into application form)"
+    ],
+    "optional_documents": [],
+    "application_link": "https://www.jansuraksha.gov.in",
+    "offline_process": "Visit the bank branch where you have a savings bank account, fill out the simple PMJJBY consent slip, or enable through NetBanking/Mobile Banking.",
+    "grievance_contact": "1800-180-1111 / 1800-110-001",
+    "processing_time_days": 1,
+    "tags": [
+      "life insurance",
+      "term insurance",
+      "pmjjby",
+      "436 rupees",
+      "2 lakh life cover",
+      "nominee",
+      "death benefit"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-PEN-010",
+    "scheme_name": "Atal Pension Yojana",
+    "short_name": "APY",
+    "ministry": "Ministry of Finance",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Social Welfare & Pensions",
+    "description": "A guaranteed pension scheme for unorganized sector workers administered by PFRDA, providing a guaranteed monthly pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 from age 60 based on contribution.",
+    "key_benefits": "Guaranteed minimum monthly pension of ₹1,000 to ₹5,000 for life starting from age 60; same pension to spouse after subscriber's death, and full return of accumulated pension corpus to the nominee.",
+    "benefit_amount": 60000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 40,
+      "gender": "Any",
+      "occupation": [
+        "Unorganized Worker",
+        "Self-Employed",
+        "Daily Wage Earner",
+        "Gig Worker",
+        "Artisan",
+        "Driver",
+        "Farmer"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Any citizen who is or has been an Income Tax payer under the Income Tax Act 1961 as of October 1, 2022",
+        "Beneficiaries covered under statutory social security schemes (EPFO, NPS, Govt pension)"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Active Savings Bank Account Passbook with auto-debit facility",
+      "Mobile Phone Number",
+      "Nominee Details and Spouse Details"
+    ],
+    "optional_documents": [],
+    "application_link": "https://www.npscra.nsdl.co.in / https://www.pfrda.org.in",
+    "offline_process": "Visit the bank or post office branch where you have an account, fill out the APY registration form, select the pension slab (₹1000-₹5000), and enable auto-debit.",
+    "grievance_contact": "1800-110-069 / cra@nsdl.co.in",
+    "processing_time_days": 3,
+    "tags": [
+      "pension",
+      "unorganized workers",
+      "atal pension",
+      "apy",
+      "retirement",
+      "monthly income",
+      "pfrda",
+      "guaranteed pension"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-WMN-011",
+    "scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+    "short_name": "PMMVY",
+    "ministry": "Ministry of Women and Child Development",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Women & Child",
+    "description": "A direct benefit transfer (DBT) scheme providing cash incentive of ₹5,000 in two installments for the first living child, and ₹6,000 in a single installment for a second girl child, to compensate for wage loss during pregnancy and childbirth.",
+    "key_benefits": "Cash incentive of ₹5,000 for first child (₹3,000 upon ANC registration + ₹2,000 after child birth & vaccination) and ₹6,000 in single installment if the second child is a girl.",
+    "benefit_amount": 6000.0,
+    "eligibility_criteria": {
+      "min_age": 19,
+      "max_age": 45,
+      "gender": "Female",
+      "occupation": [
+        "Pregnant Woman",
+        "Lactating Mother",
+        "Homemaker",
+        "Informal Worker"
+      ],
+      "max_annual_income": 800000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Women who are in regular employment with Central or State Government or Public Sector Undertakings (PSUs)",
+        "Women who receive similar paid maternity benefits under any other law"
+      ]
+    },
+    "required_documents": [
+      "Mother's and Husband's Aadhaar Card",
+      "Mother and Child Protection (MCP) Card registered at Anganwadi / Health Centre",
+      "Aadhaar-linked Bank Account Passbook of the mother",
+      "Child Birth Certificate (for subsequent installments)",
+      "Proof of belonging to target group (EWS certificate, Ration card, MGNREGA job card, Ayushman card)"
+    ],
+    "optional_documents": [],
+    "application_link": "https://pmmvy.wcd.gov.in",
+    "offline_process": "Register at the nearest Anganwadi Centre (AWC) or Primary Health Centre (PHC) through the Anganwadi Worker (AWW) or ASHA worker.",
+    "grievance_contact": "011-23382393 / pmmvy-mowcd@gov.in",
+    "processing_time_days": 15,
+    "tags": [
+      "maternity benefit",
+      "pregnant women",
+      "child birth",
+      "pmmvy",
+      "cash transfer",
+      "mother child",
+      "anganwadi"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-ART-012",
+    "scheme_name": "PM Vishwakarma Yojana",
+    "short_name": "PM-VISHWAKARMA",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "state": "All-India",
+    "category": "MSME & Entrepreneurship",
+    "description": "Comprehensive scheme supporting traditional artisans and craftspeople working with hands and tools across 18 traditional trades with recognition, skill upskilling, toolkit incentive of ₹15,000, and collateral-free credit support up to ₹3 lakh at 5% interest.",
+    "key_benefits": "PM Vishwakarma Certificate & ID Card, 5-7 days basic skill training with ₹500/day stipend, ₹15,000 e-voucher for modern toolkits, and collateral-free enterprise development loans up to ₹3,00,000 (Tranche 1: ₹1L, Tranche 2: ₹2L) at concessional 5% interest rate.",
+    "benefit_amount": 315000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 70,
+      "gender": "Any",
+      "occupation": [
+        "Carpenter",
+        "Boat Maker",
+        "Armourer",
+        "Blacksmith",
+        "Hammer and Tool Kit Maker",
+        "Locksmith",
+        "Sculptor / Stone Carver",
+        "Goldsmith",
+        "Potter",
+        "Cobbler / Shoesmith",
+        "Mason",
+        "Basket / Mat / Broom Maker",
+        "Doll & Toy Maker",
+        "Barber",
+        "Garland Maker",
+        "Washerman / Dhobi",
+        "Tailor / Darzi",
+        "Fishing Net Maker"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Persons who have availed loans under similar credit-based schemes (PMEGP, PM SVANidhi, Mudra) and have outstanding dues",
+        "Family members of government servants",
+        "Only one member per family is eligible"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Active Mobile Number linked with Aadhaar",
+      "Bank Account Passbook / Account details",
+      "Ration Card / Family ID",
+      "Trade-specific declaration / Skill proof"
+    ],
+    "optional_documents": [
+      "Skill certification if previously held"
+    ],
+    "application_link": "https://pmvishwakarma.gov.in",
+    "offline_process": "Enroll through any Common Service Centre (CSC) with biometric verification, followed by 3-stage verification (Gram Panchayat / ULB level, District Implementation Committee, Screening Committee).",
+    "grievance_contact": "1800-267-7777 / 011-23061574 / pm-vishwakarma@dcmsme.gov.in",
+    "processing_time_days": 21,
+    "tags": [
+      "artisan",
+      "vishwakarma",
+      "carpenter",
+      "blacksmith",
+      "potter",
+      "mason",
+      "tailor",
+      "toolkit incentive",
+      "5 percent loan",
+      "skill training"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-URB-013",
+    "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+    "short_name": "PM-SVANIDHI",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "level": "Central",
+    "state": "All-India",
+    "category": "MSME & Entrepreneurship",
+    "description": "Micro-credit facility for urban street vendors providing collateral-free working capital loans starting with ₹10,000 (1st tranche), ₹20,000 (2nd tranche), and ₹50,000 (3rd tranche) with 7% interest subsidy on timely repayment and digital transaction cashbacks up to ₹1,200/year.",
+    "key_benefits": "Collateral-free working capital loan of ₹10,000 (enhanced to ₹20k and ₹50k on timely repayment), 7% interest subsidy credited directly to bank account, and up to ₹100/month cashback for digital transactions.",
+    "benefit_amount": 50000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 70,
+      "gender": "Any",
+      "occupation": [
+        "Street Vendor",
+        "Hawker",
+        "Thelawala",
+        "Cart Vendor",
+        "Footpath Vendor"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Non-vendors or vendors in non-notified rural areas without ULB recommendation",
+        "Willful loan defaulters with commercial banks"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Certificate of Vending (CoV) / Identity Card issued by Urban Local Body (ULB) OR Letter of Recommendation (LoR)",
+      "Bank Account details (Aadhaar linked)",
+      "Mobile number linked with Aadhaar",
+      "UPI ID / QR Code details (for digital cashback)"
+    ],
+    "optional_documents": [],
+    "application_link": "https://pmsvanidhi.mohua.gov.in",
+    "offline_process": "Apply through Urban Local Body (ULB) / Town Vending Committee (TVC), or nearest Common Service Centre (CSC) or Banking Correspondent (BC).",
+    "grievance_contact": "1800-11-1979 / pmsvanidhi-mohua@gov.in",
+    "processing_time_days": 7,
+    "tags": [
+      "street vendor",
+      "hawker",
+      "micro loan",
+      "working capital",
+      "pmsvanidhi",
+      "svanidhi",
+      "cashback",
+      "urban poor"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-ENG-014",
+    "scheme_name": "Pradhan Mantri Ujjwala Yojana 2.0",
+    "short_name": "PMUY",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Social Welfare & Energy",
+    "description": "Provides deposit-free LPG connections along with free first refill and hotplate (stove) to adult women from poor households to ensure smoke-free rural kitchens and women's health.",
+    "key_benefits": "Deposit-free LPG connection, financial assistance of ₹1,600 per connection, free first LPG refill cylinder, free 2-burner gas stove, and targeted subsidy of ₹300 per cylinder for up to 12 refills/year.",
+    "benefit_amount": 5200.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 90,
+      "gender": "Female",
+      "occupation": [
+        "Homemaker",
+        "Rural Housewife",
+        "Informal Worker"
+      ],
+      "max_annual_income": 200000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Any existing active LPG connection in the same household",
+        "Male applicants (connection is issued exclusively in the name of the female head)"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card of the applicant woman (e-KYC mandatory)",
+      "Ration Card showing family composition / 14-point family declaration form",
+      "Aadhaar of all adult family members listed in ration card",
+      "Bank Account Number and IFSC code",
+      "Address Proof / Residence Certificate"
+    ],
+    "optional_documents": [
+      "BPL Card / Caste Certificate"
+    ],
+    "application_link": "https://www.pmuy.gov.in",
+    "offline_process": "Submit application form at the nearest LPG Distributor (Indane, Bharatgas, or HP Gas) or Common Service Centre (CSC).",
+    "grievance_contact": "1800-266-6696 / 1906 (LPG Emergency) / ujjwala@indianoil.in",
+    "processing_time_days": 10,
+    "tags": [
+      "gas cylinder",
+      "lpg connection",
+      "ujjwala",
+      "free stove",
+      "women welfare",
+      "clean cooking",
+      "pmuy"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-AGRI-015",
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+    "short_name": "PMFBY",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Agriculture & Farmers",
+    "description": "Comprehensive crop insurance scheme providing comprehensive financial risk cover against non-preventable natural risks from pre-sowing to post-harvest stages at extremely low premium rates (2% for Kharif, 1.5% for Rabi, 5% for commercial/horticultural crops).",
+    "key_benefits": "Full sum insured payout for crop loss due to drought, flood, inundation, pests, landslides, hailstorm, cyclone, post-harvest losses. Farmers pay nominal premium (1.5% - 2%) while balance is subsidized by Central and State Governments.",
+    "benefit_amount": 100000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 100,
+      "gender": "Any",
+      "occupation": [
+        "Farmer",
+        "Sharecropper",
+        "Tenant Farmer",
+        "Cultivator"
+      ],
+      "max_annual_income": null,
+      "landholding_required": true,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "War, nuclear risks, malicious damage and preventable risks due to negligence",
+        "Losses arising after 14 days of harvesting (for post-harvest coverage window)"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Record Documents (RoR / Record of Rights / Land Possession Certificate / Khatauni)",
+      "Sowing Certificate / Crop Sowing Declaration issued by Patwari / Village Revenue Officer / Agriculture Officer",
+      "Bank Account Passbook (Aadhaar linked)",
+      "Tenant Agreement / Sharecropper Affidavit (if cultivating leased land)"
+    ],
+    "optional_documents": [
+      "Kisan Credit Card (KCC) passbook"
+    ],
+    "application_link": "https://pmfby.gov.in",
+    "offline_process": "Enroll through Bank branches (where farmer has KCC / savings account), Primary Agricultural Credit Societies (PACS), or Common Service Centres (CSC).",
+    "grievance_contact": "14447 / 011-23382012 / helpdesk-pmfby@gov.in",
+    "processing_time_days": 30,
+    "tags": [
+      "crop insurance",
+      "fasal bima",
+      "pmfby",
+      "drought insurance",
+      "flood crop damage",
+      "kharif",
+      "rabi",
+      "farmer safety"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-FIN-016",
+    "scheme_name": "Stand-Up India Scheme",
+    "short_name": "STANDUP-INDIA",
+    "ministry": "Ministry of Finance",
+    "level": "Central",
+    "state": "All-India",
+    "category": "MSME & Entrepreneurship",
+    "description": "Facilitates bank loans between ₹10 lakh and ₹1 crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) borrower and at least one woman borrower per bank branch for setting up a greenfield enterprise in manufacturing, services, agri-allied, or trading sector.",
+    "key_benefits": "Composite loan (term loan and working capital) between ₹10,00,000 and ₹1,00,00,000 covering up to 85% of project cost with margin money requirements reduced to 15%. Repayable over 7 years with moratorium up to 18 months.",
+    "benefit_amount": 10000000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 70,
+      "gender": "Any",
+      "occupation": [
+        "Entrepreneur",
+        "Business Owner",
+        "Self-Employed"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "SC",
+        "ST",
+        "General",
+        "OBC",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Non-greenfield projects (existing business expansion)",
+        "Borrowers with default history in any financial institution"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card and PAN Card",
+      "Caste Certificate (for SC/ST category applicants)",
+      "Detailed Project Report (DPR) with estimated cost, machinery quotations, and financial projections",
+      "Proof of Business Premise (Lease Deed / Rent Agreement / Title Deed)",
+      "Bank Account Statements for last 12 months",
+      "Company / Partnership / LLP Registration and MOA/AOA (if applicable)"
+    ],
+    "optional_documents": [
+      "Pollution Control Board clearances / Trade license"
+    ],
+    "application_link": "https://www.standupmitra.in",
+    "offline_process": "Apply directly at any Scheduled Commercial Bank branch or through Small Industries Development Bank of India (SIDBI) / NABARD offices.",
+    "grievance_contact": "1800-180-1111 / support-standupmitra@sidbi.in",
+    "processing_time_days": 30,
+    "tags": [
+      "sc st loan",
+      "women entrepreneur",
+      "greenfield business",
+      "1 crore loan",
+      "standup india",
+      "startup funding",
+      "commercial loan"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-EDU-017",
+    "scheme_name": "Post Matric Scholarship Scheme for SC/ST Students",
+    "short_name": "PMS-SC-ST",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Students",
+    "description": "Centrally sponsored scholarship scheme providing full financial assistance covering non-refundable compulsory course fees and maintenance allowance to Scheduled Caste (SC) and Scheduled Tribe (ST) students pursuing Class 11, 12, ITI, Diploma, Undergraduate, and Postgraduate degrees.",
+    "key_benefits": "100% tuition and mandatory institutional fee reimbursement plus monthly maintenance allowance (₹2,500 to ₹13,500 per annum depending on course group and hosteller/day scholar status) transferred via DBT.",
+    "benefit_amount": 50000.0,
+    "eligibility_criteria": {
+      "min_age": 15,
+      "max_age": 35,
+      "gender": "Any",
+      "occupation": [
+        "Student"
+      ],
+      "max_annual_income": 250000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "SC",
+        "ST"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Students holding another full scholarship from government source",
+        "Students enrolled in private unaccredited courses without government affiliation",
+        "Family income exceeding ₹2.50 lakh p.a."
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste / Community Certificate issued by competent revenue authority",
+      "Income Certificate issued by Tehsildar / competent authority (valid for current financial year)",
+      "Previous Year Marks Sheet / Passing Certificate",
+      "Current Year College / Institute Admission Fee Receipt and Bonafide Certificate",
+      "Bank Account Passbook (Aadhaar linked & active DBT enabled)"
+    ],
+    "optional_documents": [
+      "Hostel Warden Certificate (for hosteller allowance)"
+    ],
+    "application_link": "https://scholarships.gov.in (National Scholarship Portal - NSP)",
+    "offline_process": "Online registration via NSP portal, verified by Institute Nodal Officer (INO) and District Nodal Officer (DNO).",
+    "grievance_contact": "0120-6619540 / helpdesk@nsp.gov.in",
+    "processing_time_days": 45,
+    "tags": [
+      "scholarship",
+      "sc st scholarship",
+      "post matric",
+      "nsp",
+      "college fee reimbursement",
+      "student aid",
+      "higher education"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-AGRI-018",
+    "scheme_name": "Kisan Credit Card Scheme",
+    "short_name": "KCC",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Agriculture & Farmers",
+    "description": "Provides adequate and timely credit support from banking system to farmers for their cultivation expenses, post-harvest costs, maintenance of farm assets, and activities allied to agriculture (dairy, fisheries, poultry) with effective interest rate as low as 4% p.a.",
+    "key_benefits": "Credit limit up to ₹3,00,000 at 7% interest, subsidized to 4% p.a. on prompt repayment (3% Prompt Repayment Incentive - PRI). No collateral required for loans up to ₹1.60 lakh. Rupay KCC debit card for ATM withdrawals.",
+    "benefit_amount": 300000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 75,
+      "gender": "Any",
+      "occupation": [
+        "Farmer",
+        "Cultivator",
+        "Tenant Farmer",
+        "Sharecropper",
+        "Animal Husbandry Farmer",
+        "Fish Farmer"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Willful bank defaulters with overdue agricultural loans"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card and Voter ID / PAN Card",
+      "Land Record Documents (Pahani / RTC / Khatauni / Land Title Deed)",
+      "Crop Sowing Certificate / Declaration of cropping pattern",
+      "Passport size photographs",
+      "No-dues certificate from nearby financial institutions (if loan exceeds ₹1.6 lakh)"
+    ],
+    "optional_documents": [
+      "Lease agreement for tenant farmers"
+    ],
+    "application_link": "https://pmkisan.gov.in / Any Commercial Bank / NABARD",
+    "offline_process": "Submit 1-page simplified KCC form at nearest Commercial Bank branch, Regional Rural Bank (RRB), or Cooperative Bank.",
+    "grievance_contact": "155261 / 1800-180-1551 / kcc-support@gov.in",
+    "processing_time_days": 14,
+    "tags": [
+      "kisan credit card",
+      "kcc",
+      "crop loan",
+      "4 percent interest",
+      "agricultural loan",
+      "rupay card",
+      "fertilizer loan"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-SOC-019",
+    "scheme_name": "Indira Gandhi National Widow Pension Scheme",
+    "short_name": "IGNWPS",
+    "ministry": "Ministry of Rural Development",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Social Welfare & Pensions",
+    "description": "Financial security scheme under NSAP providing monthly pension to widows aged 40 to 79 years living below the poverty line.",
+    "key_benefits": "Monthly pension of ₹300 (Central contribution) plus ₹700 to ₹1,500 (State contribution) totaling ₹1,000 to ₹1,800/month credited directly into the widow's bank account.",
+    "benefit_amount": 18000.0,
+    "eligibility_criteria": {
+      "min_age": 40,
+      "max_age": 79,
+      "gender": "Female",
+      "occupation": [
+        "Widow",
+        "Unemployed",
+        "Informal Worker"
+      ],
+      "max_annual_income": 36000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Remarriage of the widow",
+        "Households not categorized as BPL or receiving regular government employment pension"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Death Certificate of the Husband",
+      "BPL Ration Card / BPL Certificate",
+      "Age Proof Certificate (Aadhaar / Voter ID / School Certificate)",
+      "Bank Account Passbook (Aadhaar linked)",
+      "Non-Remarriage Declaration Certificate"
+    ],
+    "optional_documents": [
+      "Income Certificate from Tehsildar"
+    ],
+    "application_link": "https://nsap.nic.in",
+    "offline_process": "Submit application to Gram Panchayat / Village Accountant / BDO in rural areas, or Municipal Ward / District Social Welfare Office in urban areas.",
+    "grievance_contact": "1800-180-1551 / nsap-support@gov.in",
+    "processing_time_days": 30,
+    "tags": [
+      "widow pension",
+      "ignwps",
+      "destitute women",
+      "bpl",
+      "social security",
+      "widow assistance",
+      "monthly pension"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-SOC-020",
+    "scheme_name": "Rashtriya Vayoshri Yojana",
+    "short_name": "RVY",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Senior Citizens & Disability",
+    "description": "Scheme for providing physical aids and assisted-living devices (hearing aids, wheelchairs, walkers, spectacles, artificial dentures, crutches) for senior citizens belonging to BPL category suffering from age-related disabilities/infirmities.",
+    "key_benefits": "Free of cost distribution of standard assisted-living devices including Wheelchairs, Hearing Aids, Walking Sticks, Quadripods, Elbow Crutches, Tripods, Spectacles, Dentures, and Commode Chairs.",
+    "benefit_amount": 15000.0,
+    "eligibility_criteria": {
+      "min_age": 60,
+      "max_age": 120,
+      "gender": "Any",
+      "occupation": [
+        "Senior Citizen",
+        "Retired"
+      ],
+      "max_annual_income": 36000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Non-BPL senior citizens with high income",
+        "Senior citizens who have already received similar devices from ALIMCO/Govt within the last 3 years"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card / Proof of Age",
+      "BPL Card / Income Certificate (showing monthly income < ₹15,000)",
+      "Medical Assessment Certificate from Government Medical Officer / Camp Doctor certifying impairment",
+      "Passport size photographs"
+    ],
+    "optional_documents": [
+      "Disability Certificate (if available)"
+    ],
+    "application_link": "https://alimco.in / https://socialjustice.gov.in",
+    "offline_process": "Attend ALIMCO assessment and distribution assessment camps organized by District Administration and Social Welfare Department.",
+    "grievance_contact": "1800-180-5129 / alimco@alimco.in",
+    "processing_time_days": 15,
+    "tags": [
+      "senior citizen",
+      "wheelchair",
+      "hearing aid",
+      "spectacles",
+      "disability",
+      "vayoshri yojana",
+      "alimco",
+      "elderly aid"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-EDU-021",
+    "scheme_name": "PM National Apprenticeship Promotion Scheme",
+    "short_name": "NAPS",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Students",
+    "description": "Promotes apprenticeship training by sharing 25% of prescribed stipend subject to a maximum of ₹1,500 per month per apprentice directly to the apprentice's bank account via DBT during the training period with industrial enterprises.",
+    "key_benefits": "Direct monthly stipend subsidy of ₹1,500 via DBT, on-the-job industrial skill training, and National Apprenticeship Certificate (NAC) recognized across India and globally.",
+    "benefit_amount": 18000.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 35,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Apprentice",
+        "Job Seeker",
+        "ITI Graduate",
+        "Diploma Holder",
+        "Graduate"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Candidates already holding full-time permanent employment",
+        "Candidates currently enrolled in another active apprenticeship contract"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Educational Qualification Marksheets (10th/12th/ITI/Diploma/Degree)",
+      "Active Bank Account Passbook (Aadhaar linked)",
+      "Passport size photograph",
+      "Resume / Profile on Apprenticeship portal"
+    ],
+    "optional_documents": [],
+    "application_link": "https://www.apprenticeshipindia.gov.in",
+    "offline_process": "Register online on Apprenticeship India portal and apply directly to empanelled industry apprenticeship vacancies.",
+    "grievance_contact": "011-25841285 / apprenticeship-support@gov.in",
+    "processing_time_days": 10,
+    "tags": [
+      "apprenticeship",
+      "stipend",
+      "skill development",
+      "naps",
+      "iti jobs",
+      "industrial training",
+      "student job",
+      "youth"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-MSME-022",
+    "scheme_name": "Prime Minister's Employment Generation Programme",
+    "short_name": "PMEGP",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "state": "All-India",
+    "category": "MSME & Entrepreneurship",
+    "description": "Credit-linked subsidy programme to generate continuous self-employment opportunities in rural and urban areas by setting up micro-enterprises. Provides 15% to 35% margin money government subsidy on project costs up to ₹50 lakh for manufacturing and ₹20 lakh for service units.",
+    "key_benefits": "Government subsidy (Margin Money) of 15% to 35% of project cost: Urban (General: 15%, SC/ST/OBC/Women/Minorities: 25%), Rural (General: 25%, Special Categories: 35%). Maximum project cost ₹50 Lakh (Manufacturing) / ₹20 Lakh (Service).",
+    "benefit_amount": 1750000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 65,
+      "gender": "Any",
+      "occupation": [
+        "Entrepreneur",
+        "Self-Employed",
+        "Artisan",
+        "Unemployed Youth"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Existing units or units already availing government subsidy under PMRY, REGP, etc.",
+        "Business activities in negative list (meat/slaughterhouses, tobacco products, polythene bags < 50 microns, rural transport unless approved)"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card and PAN Card",
+      "Educational Qualification / 8th Standard Certificate",
+      "Detailed Project Report (DPR) with machinery cost and financial projections",
+      "Special Category / Caste Certificate (SC/ST/OBC/Ex-Serviceman/PH)",
+      "Rural Area Certificate from Gram Panchayat (for rural subsidy rate)",
+      "EDP (Entrepreneurship Development Training) Certificate (can be completed online post-approval)"
+    ],
+    "optional_documents": [
+      "Land / Building rental agreement or ownership papers"
+    ],
+    "application_link": "https://www.kviconline.gov.in/pmegpeportal",
+    "offline_process": "Applications are submitted online via KVIC e-portal and processed by KVIC, KVIB, DIC, or Coir Board, followed by District Level Task Force Committee (DLTFC) interview.",
+    "grievance_contact": "022-26711002 / pmegp.kvic@gov.in",
+    "processing_time_days": 45,
+    "tags": [
+      "pmegp",
+      "kvic",
+      "business subsidy",
+      "manufacturing loan",
+      "self employment",
+      "margin money subsidy",
+      "startup india"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "KA-ST-023",
+    "scheme_name": "Yuva Nidhi Scheme (Karnataka)",
+    "short_name": "YUVA-NIDHI",
+    "ministry": "Department of Skill Development, Entrepreneurship and Livelihood (Karnataka)",
+    "level": "State",
+    "state": "Karnataka",
+    "category": "Education & Students",
+    "description": "Financial assistance scheme by Government of Karnataka for unemployed graduates and diploma holders who passed out in the academic year 2022-23 onwards, providing monthly unemployment allowance for up to 2 years.",
+    "key_benefits": "₹3,000 per month for unemployed degree/postgraduate holders and ₹1,500 per month for unemployed diploma holders for a period of up to 2 years or until employment is secured, credited via DBT.",
+    "benefit_amount": 72000.0,
+    "eligibility_criteria": {
+      "min_age": 20,
+      "max_age": 30,
+      "gender": "Any",
+      "occupation": [
+        "Unemployed Graduate",
+        "Unemployed Diploma Holder",
+        "Job Seeker"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Employed candidates in government, public sector, or private formal sector",
+        "Self-employed individuals registered under GST or receiving salary through EPF/ESI",
+        "Candidates pursuing higher education full-time",
+        "Candidates from outside Karnataka"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Karnataka Domicile Proof (Study certificate for at least 6 years in Karnataka or Ration Card)",
+      "Degree / Diploma Marks Cards and Passing / Convocation Certificate",
+      "Bank Account Passbook (Aadhaar seeded & DBT active)",
+      "Self-declaration of unemployment"
+    ],
+    "optional_documents": [],
+    "application_link": "https://sevasindhugs.karnataka.gov.in",
+    "offline_process": "Apply online at Seva Sindhu portal or visit Karnataka One, Bangalore One, Grama One, or Bapuji Seva Kendra.",
+    "grievance_contact": "1902 (Seva Sindhu Helpline) / yuvadep-ka@gov.in",
+    "processing_time_days": 15,
+    "tags": [
+      "karnataka",
+      "yuva nidhi",
+      "unemployment allowance",
+      "graduates",
+      "diploma",
+      "seva sindhu",
+      "3000 per month",
+      "youth"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "KA-ST-024",
+    "scheme_name": "Gruha Lakshmi Scheme (Karnataka)",
+    "short_name": "GRUHA-LAKSHMI",
+    "ministry": "Department of Women and Child Development (Karnataka)",
+    "level": "State",
+    "state": "Karnataka",
+    "category": "Women & Child",
+    "description": "Flagship guarantee scheme of Karnataka providing ₹2,000 monthly financial aid to the woman head of household in eligible families across Karnataka.",
+    "key_benefits": "₹2,000 per month direct benefit transfer (DBT) into the bank account of woman head of the family (₹24,000 per year).",
+    "benefit_amount": 24000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 100,
+      "gender": "Female",
+      "occupation": [
+        "Homemaker",
+        "Women Head of Family",
+        "Informal Worker",
+        "Farmer"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Woman head or husband paying Income Tax (IT returns)",
+        "Woman head or husband filing GST returns"
+      ]
+    },
+    "required_documents": [
+      "Ration Card (APL / BPL / Antyodaya Card) with applicant woman marked as Head of Family",
+      "Aadhaar Card of the Woman Head of Family",
+      "Aadhaar Card of Husband",
+      "Aadhaar-linked Bank Account Passbook",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "optional_documents": [],
+    "application_link": "https://sevasindhugs.karnataka.gov.in",
+    "offline_process": "Register via Grama One, Karnataka One, Bangalore One, or Bapuji Seva Kendra centers across Karnataka.",
+    "grievance_contact": "1902 / 080-22279954 / sevasindhu@karnataka.gov.in",
+    "processing_time_days": 10,
+    "tags": [
+      "karnataka",
+      "gruha lakshmi",
+      "women head",
+      "2000 rupees",
+      "dbt",
+      "guarantee scheme",
+      "seva sindhu",
+      "family aid"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "KA-ST-025",
+    "scheme_name": "Gruha Jyothi Scheme (Karnataka)",
+    "short_name": "GRUHA-JYOTHI",
+    "ministry": "Energy Department (Karnataka)",
+    "level": "State",
+    "state": "Karnataka",
+    "category": "Social Welfare & Energy",
+    "description": "Provides up to 200 units of free electricity per month for domestic electricity consumers in Karnataka based on average household electricity consumption.",
+    "key_benefits": "Zero electricity bill (100% subsidy) up to 200 units per month for eligible domestic residential households across Karnataka.",
+    "benefit_amount": 18000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 100,
+      "gender": "Any",
+      "occupation": [
+        "Any"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Commercial and industrial electricity connections",
+        "Monthly electricity consumption exceeding 200 units in the billing cycle"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Electricity Account ID / Consumer Connection ID (found on BESCOM, HESCOM, GESCOM, MESCOM, CESC bills)",
+      "Rental / Tenancy Agreement (if living in rented house)",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "optional_documents": [],
+    "application_link": "https://sevasindhugs.karnataka.gov.in",
+    "offline_process": "Register at Karnataka One, Bangalore One, Grama One, or ESCOM sub-division offices.",
+    "grievance_contact": "1912 (Electricity Helpline Karnataka) / gruhajyothi-ka@gov.in",
+    "processing_time_days": 7,
+    "tags": [
+      "karnataka",
+      "gruha jyothi",
+      "free electricity",
+      "bescom",
+      "power subsidy",
+      "200 units free",
+      "seva sindhu"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "KA-ST-026",
+    "scheme_name": "Shakti Scheme (Karnataka)",
+    "short_name": "SHAKTI-SCHEME",
+    "ministry": "Transport Department (Karnataka)",
+    "level": "State",
+    "state": "Karnataka",
+    "category": "Women & Child",
+    "description": "Provides free bus travel for all women domicile residents of Karnataka (including students and transgender persons) in non-premium State Road Transport Corporation buses (KSRTC, BMTC, NWKRTC, KKRTC).",
+    "key_benefits": "100% free bus travel within Karnataka on ordinary, express, city, and suburban buses of KSRTC, BMTC, NWKRTC, and KKRTC with zero fare tickets issued on presenting valid ID.",
+    "benefit_amount": 15000.0,
+    "eligibility_criteria": {
+      "min_age": 0,
+      "max_age": 120,
+      "gender": "Female",
+      "occupation": [
+        "Any",
+        "Student",
+        "Working Woman",
+        "Homemaker",
+        "Senior Citizen"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Luxury/Premium buses (Airawat, Club Class, Flybus, EV Power Plus, AC Vajra, Rajahamsa, Sleeper)",
+        "Inter-state bus travel beyond Karnataka border"
+      ]
+    },
+    "required_documents": [
+      "Government Photo ID Proof showing Karnataka Address (Aadhaar Card / EPIC Voter ID / Driving License / Ration Card / Passport)"
+    ],
+    "optional_documents": [
+      "Shakti Smart Card (when issued via Seva Sindhu)"
+    ],
+    "application_link": "https://ksrtc.in / https://sevasindhugs.karnataka.gov.in",
+    "offline_process": "No pre-application required for daily travel; simply show any valid government ID proof with Karnataka address to conductor while boarding to obtain zero-fare pink ticket.",
+    "grievance_contact": "080-22221321 / complaints@ksrtc.org",
+    "processing_time_days": 15,
+    "tags": [
+      "karnataka",
+      "shakti scheme",
+      "free bus travel",
+      "ksrtc",
+      "bmtc",
+      "women mobility",
+      "pink ticket"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "KA-ST-027",
+    "scheme_name": "Anna Bhagya Scheme (Karnataka)",
+    "short_name": "ANNA-BHAGYA",
+    "ministry": "Food, Civil Supplies & Consumer Affairs Department (Karnataka)",
+    "level": "State",
+    "state": "Karnataka",
+    "category": "Social Welfare & Food Security",
+    "description": "Provides food security by guaranteeing 10 kg of food grains (or equivalent cash DBT of ₹170/person for 5 kg at ₹34/kg) per person per month to all members of Antyodaya Anna Yojana (AAY) and Priority Household (PHH/BPL) families in Karnataka.",
+    "key_benefits": "5 kg free food grains under PMGKAY plus 5 kg additional rice (or direct cash transfer of ₹170 per person per month via DBT) to ensure a total of 10 kg free food grains per month per person.",
+    "benefit_amount": 2040.0,
+    "eligibility_criteria": {
+      "min_age": 0,
+      "max_age": 120,
+      "gender": "Any",
+      "occupation": [
+        "Any",
+        "BPL Household",
+        "Daily Wage Earner",
+        "Informal Worker"
+      ],
+      "max_annual_income": 120000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Above Poverty Line (APL / Non-Priority Household) cardholders",
+        "Income tax payers"
+      ]
+    },
+    "required_documents": [
+      "Active Karnataka BPL / AAY Ration Card with all family members e-KYC verified",
+      "Aadhaar Card linked to Ration Card",
+      "Aadhaar-seeded active DBT bank account of the Head of the Family"
+    ],
+    "optional_documents": [],
+    "application_link": "https://ahara.kar.nic.in",
+    "offline_process": "Fair Price Shops (PDS Ration Depots) in Karnataka distribute food grains upon biometric thumb impression. DBT cash component is automatically credited to the bank account of the card head.",
+    "grievance_contact": "1967 / 1800-425-9339 / ahara-grievance@karnataka.gov.in",
+    "processing_time_days": 1,
+    "tags": [
+      "karnataka",
+      "anna bhagya",
+      "free rice",
+      "food security",
+      "bpl ration",
+      "pds",
+      "dbt cash rice",
+      "ahara"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-EDU-028",
+    "scheme_name": "Central Sector Scheme of Scholarship for College and University Students",
+    "short_name": "CSSS",
+    "ministry": "Ministry of Education (Department of Higher Education)",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Students",
+    "description": "Merit-cum-means scholarship awarded to meritorious students from low-income families who have scored above the 80th percentile in Class 12 board examinations and are pursuing regular degree courses in higher education.",
+    "key_benefits": "₹12,000 per annum for the first three years of undergraduate degree and ₹20,000 per annum at postgraduate level (total up to ₹70,000 - ₹1,00,000 over 5-year integrated/professional courses) credited via DBT.",
+    "benefit_amount": 20000.0,
+    "eligibility_criteria": {
+      "min_age": 17,
+      "max_age": 25,
+      "gender": "Any",
+      "occupation": [
+        "Student"
+      ],
+      "max_annual_income": 450000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Students pursuing correspondence / distance education courses",
+        "Students availing any other state or central government scholarship",
+        "Family income exceeding ₹4.50 lakh per annum"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Class 12th Board Marksheet with Roll Number",
+      "Income Certificate issued by competent revenue authority (income < ₹4.5L)",
+      "Bonafide Student Certificate and College Fee Receipt from the enrolled University / College",
+      "Bank Account Passbook (Aadhaar linked & DBT active)"
+    ],
+    "optional_documents": [
+      "Caste / Disability certificate (if applicable)"
+    ],
+    "application_link": "https://scholarships.gov.in (National Scholarship Portal)",
+    "offline_process": "Apply exclusively online through NSP portal; verification is completed by College Nodal Officer (INO) and State Nodal Officer (SNO).",
+    "grievance_contact": "0120-6619540 / dhescholarship-moe@gov.in",
+    "processing_time_days": 60,
+    "tags": [
+      "merit scholarship",
+      "college scholarship",
+      "higher education",
+      "nsp",
+      "degree scholarship",
+      "csss",
+      "ug pg student aid"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-RUR-029",
+    "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Scheme",
+    "short_name": "MGNREGS",
+    "ministry": "Ministry of Rural Development",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Rural Development & Labor",
+    "description": "Legal guarantee providing at least 100 days of guaranteed wage employment in every financial year to every rural household whose adult members volunteer to do unskilled manual work.",
+    "key_benefits": "Legal guarantee of 100 days of unskilled wage work per rural household per year, statutory daily wages (₹240 to ₹375 depending on state) paid directly to bank/post office account via DBT with unemployment allowance if work is not provided within 15 days.",
+    "benefit_amount": 35000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 75,
+      "gender": "Any",
+      "occupation": [
+        "Rural Laborer",
+        "Unskilled Worker",
+        "Farmer",
+        "Daily Wage Earner",
+        "Homemaker"
+      ],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Urban residents (scheme is statutory for rural Gram Panchayats only)",
+        "Minors below 18 years of age"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "MGNREGA Job Card (issued free by Gram Panchayat)",
+      "Bank Account Passbook (Aadhaar & ABPS enabled)",
+      "Passport size photographs",
+      "Proof of residence in Gram Panchayat"
+    ],
+    "optional_documents": [],
+    "application_link": "https://nrega.nic.in",
+    "offline_process": "Submit application to Gram Panchayat office / Panchayat Development Officer (PDO) for Job Card and submit written work demand application (Form 6).",
+    "grievance_contact": "1800-345-6565 / mgnrega-support@nic.in",
+    "processing_time_days": 15,
+    "tags": [
+      "mgnrega",
+      "nrega",
+      "100 days work",
+      "rural employment",
+      "wage employment",
+      "job card",
+      "unskilled labor"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "GOI-AGRI-030",
+    "scheme_name": "Pradhan Mantri Kisan Maandhan Yojana",
+    "short_name": "PM-KMY",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Agriculture & Farmers",
+    "description": "Old age pension scheme for Small and Marginal Farmers (SMF) providing an assured monthly pension of ₹3,000 upon attaining the age of 60 years with matching monthly contribution from Central Government.",
+    "key_benefits": "Assured lifelong monthly pension of ₹3,000 after attaining 60 years of age. Affordable monthly contribution of ₹55 to ₹200 (matched 1:1 by Central Govt) which can also be auto-debited from PM-KISAN payouts.",
+    "benefit_amount": 36000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 40,
+      "gender": "Any",
+      "occupation": [
+        "Small and Marginal Farmer",
+        "Cultivator"
+      ],
+      "max_annual_income": null,
+      "landholding_required": true,
+      "landholding_max_acres": 4.94,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Farmers covered under NPS, ESIC, EPFO, APY",
+        "Institutional landholders and income tax payers",
+        "Farmers with cultivable landholding exceeding 2 hectares"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Ownership Documents (Khatauni / RoR / Record of Rights)",
+      "Bank Account Passbook (Aadhaar linked)",
+      "PM-KISAN Beneficiary ID (optional for direct auto-debit of subscription)"
+    ],
+    "optional_documents": [],
+    "application_link": "https://maandhan.in / https://pmkmy.gov.in",
+    "offline_process": "Enroll at nearest Common Service Centre (CSC) with Aadhaar and land records or through State Nodal Officers (PM-KMY).",
+    "grievance_contact": "1800-267-6888 / support-maandhan@licindia.com",
+    "processing_time_days": 1,
+    "tags": [
+      "kisan maandhan",
+      "farmer pension",
+      "pm kmy",
+      "3000 pension",
+      "small farmers",
+      "lic pension",
+      "social security"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": null,
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-80753F16",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 0,
+      "max_age": 120,
+      "gender": "Any",
+      "occupation": [],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "optional_documents": [
+      "Income Certificate",
+      "Residence Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-11",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-40E917D1",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 0,
+      "max_age": 120,
+      "gender": "Any",
+      "occupation": [],
+      "max_annual_income": null,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "optional_documents": [
+      "Income Certificate",
+      "Residence Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-11",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-INT-TEST-99",
+    "scheme_name": "National Integrated Green Rooftop Subsidy Scheme",
+    "short_name": "PM Green Rooftop",
+    "ministry": "Ministry of New and Renewable Energy",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Clean Energy & Environment",
+    "description": "Financial assistance of up to 40% for installation of residential rooftop solar panels.",
+    "key_benefits": "Direct subsidy of ₹30,000 for 1-2kW systems and ₹60,000 for systems above 2kW.",
+    "benefit_amount": 60000.0,
+    "eligibility_criteria": {
+      "min_age": 18,
+      "max_age": 75,
+      "gender": "Any",
+      "occupation": [
+        "Any"
+      ],
+      "max_annual_income": 800000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": [
+        "Commercial establishments"
+      ]
+    },
+    "required_documents": [
+      "Aadhaar Card of Property Owner",
+      "Recent Electricity Bill with CA Number",
+      "Proof of Roof Ownership"
+    ],
+    "optional_documents": [
+      "Bank Account Passbook"
+    ],
+    "application_link": "https://solarrooftop.gov.in",
+    "offline_process": "Visit local electricity distribution company (DISCOM) sub-division office.",
+    "grievance_contact": "Toll Free: 1800-180-3333",
+    "processing_time_days": 21,
+    "tags": [
+      "Solar",
+      "Green Energy",
+      "Rooftop",
+      "Electricity Subsidy"
+    ],
+    "status": "Archived",
+    "verification_status": "Verified",
+    "source_url": "https://solarrooftop.gov.in",
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": "2026-09-17 13:49:06.287033",
+    "updated_at": "2026-09-17 13:49:06.287033",
+    "updated_by": "admin@egovseva.gov.in"
+  },
+  {
+    "scheme_id": "SCHEME-90DEFDBB",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-6D987A8A",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-98119E42",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-E42CB846",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-1BBDF65F",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-49AC8048",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-F822C5B8",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-59374BBF",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-30A4DF2E",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-BA38B778",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-872E5C99",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-632D9E91",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-65F9B612",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-5C7D2B58",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-14",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-CCB6A547",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-36FD3577",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-52B7477B",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-5BE7AE22",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-75F5FAC9",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-8EA2359A",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-860C1639",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-973E571F",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-9532160A",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-ACFAC783",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-15",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-837B7698",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-16",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-F0B6F4DD",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-16",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-0AD304AC",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-9DAA4B60",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-D10A7544",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-91E99EB5",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-D65850B8",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-0CE08B76",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-58D4A53D",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-790083D4",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-5D278DB5",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  },
+  {
+    "scheme_id": "SCHEME-F167642A",
+    "scheme_name": "National Digital Literacy Mission 2026",
+    "short_name": "NDLM-2026",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "level": "Central",
+    "state": "All-India",
+    "category": "Education & Skills",
+    "description": "Empowering citizens with foundational AI and digital literacy certification.",
+    "key_benefits": "Free certification and computer kit subsidy",
+    "benefit_amount": 7500.0,
+    "eligibility_criteria": {
+      "min_age": 14,
+      "max_age": 60,
+      "gender": "Any",
+      "occupation": [
+        "Student",
+        "Any"
+      ],
+      "max_annual_income": 300000.0,
+      "landholding_required": false,
+      "landholding_max_acres": null,
+      "caste_category": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS"
+      ],
+      "target_group": null,
+      "exclusions": []
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "School / College ID"
+    ],
+    "optional_documents": [
+      "Income Certificate"
+    ],
+    "application_link": "https://meity.gov.in/ndlm",
+    "offline_process": null,
+    "grievance_contact": null,
+    "processing_time_days": 10,
+    "tags": [
+      "digital",
+      "ai",
+      "skills",
+      "students"
+    ],
+    "status": "Active",
+    "verification_status": "Verified",
+    "source_url": null,
+    "last_verified_date": "2026-09-17",
+    "data_version": "1.0",
+    "created_at": null,
+    "updated_at": null,
+    "updated_by": null
+  }
+]

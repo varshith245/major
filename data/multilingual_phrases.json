@@ -1,0 +1,91 @@
+{
+  "supported_languages": [
+    { "code": "en", "name": "English", "native": "English" },
+    { "code": "hi", "name": "Hindi", "native": "हिन्दी" },
+    { "code": "kn", "name": "Kannada", "native": "ಕನ್ನಡ" }
+  ],
+  "translations": {
+    "app_title": {
+      "en": "AI Public Service Assistant for Government Schemes",
+      "hi": "सरकारी योजनाओं के लिए एआई लोक सेवा सहायक",
+      "kn": "ಸರ್ಕಾರಿ ಯೋಜನೆಗಳಿಗಾಗಿ AI ಸಾರ್ವಜನಿಕ ಸೇವಾ ಸಹಾಯಕ"
+    },
+    "tagline": {
+      "en": "Discover eligible government schemes, check eligibility, and generate document checklists in your preferred language.",
+      "hi": "अपनी पसंदीदा भाषा में पात्र सरकारी योजनाओं की खोज करें, पात्रता जांचें और आवश्यक दस्तावेजों की सूची प्राप्त करें।",
+      "kn": "ನಿಮ್ಮ ಆದ್ಯತೆಯ ಭಾಷೆಯಲ್ಲಿ ಅರ್ಹ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ, ಅರ್ಹತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಅಗತ್ಯ ದಾಖಲೆಗಳ ಪರಿಶೀಲನಾ ಪಟ್ಟಿಯನ್ನು ಪಡೆಯಿರಿ."
+    },
+    "search_placeholder": {
+      "en": "Ask anything: 'Am I eligible for PM Kisan?', 'Farmer schemes in Karnataka'...",
+      "hi": "कुछ भी पूछें: 'क्या मैं पीएम किसान के लिए पात्र हूं?', 'कर्नाटक में किसानों के लिए योजनाएं'...",
+      "kn": "ಏನನ್ನಾದರೂ ಕೇಳಿ: 'ನಾನು ಪಿಎಂ ಕಿಸಾನ್‌ಗೆ ಅರ್ಹನೇ?', 'ಕರ್ನಾಟಕದಲ್ಲಿ ರೈತರ ಯೋಜನೆಗಳು'..."
+    },
+    "check_eligibility_btn": {
+      "en": "Check Eligibility",
+      "hi": "पात्रता जांचें",
+      "kn": "ಅರ್ಹತೆ ಪರಿಶೀಲಿಸಿ"
+    },
+    "document_checklist_btn": {
+      "en": "Get Document Checklist",
+      "hi": "दस्तावेज़ चेकलिस्ट प्राप्त करें",
+      "kn": "ದಾಖಲೆಗಳ ಪಟ್ಟಿ ಪಡೆಯಿರಿ"
+    },
+    "compare_schemes_btn": {
+      "en": "Compare Schemes",
+      "hi": "योजनाओं की तुलना करें",
+      "kn": "ಯೋಜನೆಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ"
+    },
+    "likely_eligible": {
+      "en": "Likely Eligible",
+      "hi": "संभावित रूप से पात्र",
+      "kn": "ಅರ್ಹತೆಯ ಹೆಚ್ಚಿನ ಸಾಧ್ಯತೆ ಇದೆ"
+    },
+    "not_eligible": {
+      "en": "Not Eligible",
+      "hi": "अपात्र",
+      "kn": "ಅರ್ಹರಲ್ಲ"
+    },
+    "conditionally_eligible": {
+      "en": "Conditionally Eligible",
+      "hi": "शर्तों के साथ पात्र",
+      "kn": "ಷರತ್ತುಬದ್ಧ ಅರ್ಹರು"
+    },
+    "required_documents_label": {
+      "en": "Mandatory Documents",
+      "hi": "अनिवार्य दस्तावेज़",
+      "kn": "ಕಡ್ಡಾಯ ದಾಖಲೆಗಳು"
+    },
+    "how_to_apply_label": {
+      "en": "How to Apply",
+      "hi": "आवेदन कैसे करें",
+      "kn": "ಅರ್ಜಿ ಸಲ್ಲಿಸುವುದು ಹೇಗೆ"
+    },
+    "official_portal_link": {
+      "en": "Official Government Portal",
+      "hi": "आधिकारिक सरकारी पोर्टल",
+      "kn": "ಅಧಿಕೃತ ಸರ್ಕಾರಿ ಪೋರ್ಟಲ್"
+    }
+  },
+  "sample_multilingual_queries": [
+    {
+      "en": "Am I eligible for PM Kisan?",
+      "hi": "क्या मैं पीएम किसान योजना के लिए पात्र हूं?",
+      "kn": "ನಾನು ಪ್ರಧಾನ ಮಂತ್ರಿ ಕಿಸಾನ್ ಯೋಜನೆಗೆ ಅರ್ಹನೇ?"
+    },
+    {
+      "en": "What documents are needed for Ayushman Bharat card?",
+      "hi": "आयुष्मान भारत कार्ड बनवाने के लिए कौन से दस्तावेज चाहिए?",
+      "kn": "ಆಯುಷ್ಮಾನ್ ಭಾರತ್ ಕಾರ್ಡ್‌ಗೆ ಯಾವ ದಾಖಲೆಗಳು ಬೇಕು?"
+    },
+    {
+      "en": "Welfare schemes for unemployed graduates in Karnataka",
+      "hi": "कर्नाटक में बेरोजगार स्नातकों के लिए कल्याणकारी योजनाएं",
+      "kn": "ಕರ್ನಾಟಕದಲ್ಲಿ ನಿರುದ್ಯೋಗಿ ಪದವೀಧರರಿಗೆ ಇರುವ ಕಲ್ಯಾಣ ಯೋಜನೆಗಳು"
+    },
+    {
+      "en": "How to apply for Sukanya Samriddhi Yojana for my daughter?",
+      "hi": "मेरी बेटी के लिए सुकन्या समृद्धि योजना में आवेदन कैसे करें?",
+      "kn": "ನನ್ನ ಮಗಳಿಗೆ ಸುಕನ್ಯಾ ಸಮೃದ್ಧಿ ಯೋಜನೆಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸುವುದು ಹೇಗೆ?"
+    }
+  ]
+}

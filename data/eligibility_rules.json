@@ -1,0 +1,198 @@
+[
+  {
+    "scheme_id": "GOI-AGRI-001",
+    "scheme_name": "PM-KISAN",
+    "rule_expression": {
+      "and": [
+        { "min_age": 18 },
+        { "occupation_in": ["Farmer", "Cultivator", "Agriculture"] },
+        { "owns_land": true },
+        { "is_income_tax_payer": false },
+        { "is_govt_employee": false },
+        { "is_constitutional_post_holder": false }
+      ]
+    },
+    "scoring_weights": {
+      "occupation_match": 0.4,
+      "land_ownership": 0.35,
+      "tax_status": 0.25
+    },
+    "rejection_messages": {
+      "owns_land": "PM-KISAN requires cultivable landholding in the applicant's name.",
+      "is_income_tax_payer": "Income tax payers are excluded under PM-KISAN guidelines.",
+      "is_govt_employee": "Serving or retired government employees (except Group D) are excluded."
+    }
+  },
+  {
+    "scheme_id": "GOI-HLTH-002",
+    "scheme_name": "AB-PMJAY",
+    "rule_expression": {
+      "and": [
+        { "max_annual_income": 250000 },
+        { "is_govt_employee": false },
+        { "owns_motorized_vehicle": false }
+      ]
+    },
+    "scoring_weights": {
+      "income_threshold": 0.5,
+      "economic_status": 0.3,
+      "asset_check": 0.2
+    },
+    "rejection_messages": {
+      "max_annual_income": "Annual family income exceeds the BPL/EWS eligibility limit of ₹2,50,000.",
+      "is_govt_employee": "Families with regular government employment are not eligible for PM-JAY.",
+      "owns_motorized_vehicle": "Households owning luxury 4-wheelers/tractors are excluded."
+    }
+  },
+  {
+    "scheme_id": "GOI-HOUS-003",
+    "scheme_name": "PMAY-G",
+    "rule_expression": {
+      "and": [
+        { "min_age": 18 },
+        { "max_annual_income": 180000 },
+        { "owns_pucca_house": false },
+        { "residence_type": "Rural" },
+        { "is_govt_employee": false }
+      ]
+    },
+    "scoring_weights": {
+      "pucca_house_status": 0.45,
+      "income_threshold": 0.35,
+      "rural_residence": 0.2
+    },
+    "rejection_messages": {
+      "owns_pucca_house": "Beneficiary already owns a pucca house in India.",
+      "residence_type": "PMAY-G is designated for rural households residing in Gram Panchayats.",
+      "max_annual_income": "Income exceeds the rural housing priority threshold."
+    }
+  },
+  {
+    "scheme_id": "GOI-HOUS-004",
+    "scheme_name": "PMAY-U",
+    "rule_expression": {
+      "and": [
+        { "min_age": 18 },
+        { "max_annual_income": 1800000 },
+        { "owns_pucca_house": false },
+        { "residence_type": "Urban" }
+      ]
+    },
+    "scoring_weights": {
+      "pucca_house_status": 0.5,
+      "urban_residence": 0.3,
+      "income_tier": 0.2
+    },
+    "rejection_messages": {
+      "owns_pucca_house": "Beneficiary must not own any pucca residential house across India.",
+      "residence_type": "PMAY-U applies to urban local bodies and statutory towns."
+    }
+  },
+  {
+    "scheme_id": "GOI-WMN-005",
+    "scheme_name": "Sukanya Samriddhi Yojana",
+    "rule_expression": {
+      "and": [
+        { "gender": "Female" },
+        { "max_age": 10 }
+      ]
+    },
+    "scoring_weights": {
+      "gender_match": 0.6,
+      "age_limit": 0.4
+    },
+    "rejection_messages": {
+      "gender": "Sukanya Samriddhi Yojana is exclusively for girl children.",
+      "max_age": "Girl child must be 10 years of age or younger at the time of account opening."
+    }
+  },
+  {
+    "scheme_id": "GOI-MSME-006",
+    "scheme_name": "Pradhan Mantri Mudra Yojana",
+    "rule_expression": {
+      "and": [
+        { "min_age": 18 },
+        { "max_age": 65 },
+        { "is_bank_defaulter": false },
+        { "business_type_in": ["Manufacturing", "Services", "Trading", "Small Business", "Artisan", "Shopkeeper", "Self-Employed"] }
+      ]
+    },
+    "scoring_weights": {
+      "age_validity": 0.3,
+      "non_defaulter": 0.4,
+      "business_plan": 0.3
+    },
+    "rejection_messages": {
+      "min_age": "Applicant must be at least 18 years of age.",
+      "is_bank_defaulter": "Applicants with active bank default history are not eligible."
+    }
+  },
+  {
+    "scheme_id": "GOI-SOC-007",
+    "scheme_name": "IGNOAPS (Old Age Pension)",
+    "rule_expression": {
+      "and": [
+        { "min_age": 60 },
+        { "max_annual_income": 36000 },
+        { "is_bpl_cardholder": true },
+        { "receives_govt_pension": false }
+      ]
+    },
+    "scoring_weights": {
+      "age_threshold": 0.45,
+      "bpl_status": 0.35,
+      "income_limit": 0.2
+    },
+    "rejection_messages": {
+      "min_age": "Applicant must be aged 60 years or above for Old Age Pension.",
+      "is_bpl_cardholder": "Applicant family must be categorized as Below Poverty Line (BPL)."
+    }
+  },
+  {
+    "scheme_id": "KA-ST-023",
+    "scheme_name": "Yuva Nidhi Scheme (Karnataka)",
+    "rule_expression": {
+      "and": [
+        { "state": "Karnataka" },
+        { "min_age": 20 },
+        { "max_age": 30 },
+        { "qualification_in": ["Graduate", "Postgraduate", "Diploma"] },
+        { "is_employed": false },
+        { "passed_year_gte": 2023 }
+      ]
+    },
+    "scoring_weights": {
+      "karnataka_domicile": 0.3,
+      "unemployment_status": 0.4,
+      "qualification_pass_year": 0.3
+    },
+    "rejection_messages": {
+      "state": "Yuva Nidhi is exclusively for permanent residents / graduates in Karnataka.",
+      "is_employed": "Applicant is currently employed or contributing to EPF/ESI.",
+      "qualification_in": "Applicant must hold a recognized Degree or Diploma completed in 2023 onwards."
+    }
+  },
+  {
+    "scheme_id": "KA-ST-024",
+    "scheme_name": "Gruha Lakshmi Scheme (Karnataka)",
+    "rule_expression": {
+      "and": [
+        { "state": "Karnataka" },
+        { "gender": "Female" },
+        { "is_head_of_family": true },
+        { "is_income_tax_payer": false },
+        { "is_gst_filer": false }
+      ]
+    },
+    "scoring_weights": {
+      "karnataka_domicile": 0.3,
+      "female_head": 0.4,
+      "tax_exclusion": 0.3
+    },
+    "rejection_messages": {
+      "state": "Applicant must reside in Karnataka.",
+      "is_head_of_family": "Applicant must be designated as the Woman Head of Family on the Ration Card.",
+      "is_income_tax_payer": "Tax-paying families are excluded from Gruha Lakshmi."
+    }
+  }
+]

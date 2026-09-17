@@ -1,0 +1,101 @@
+# =====================================================================
+# Git Ignore Rules for eGovSeva AI Public Service Assistant
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Environment & Secrets (Crucial: Never commit credentials)
+# ---------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# ---------------------------------------------------------------------
+# Python Cache & Bytecode
+# ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---------------------------------------------------------------------
+# Virtual Environments
+# ---------------------------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------------------------------------------------------------------
+# Testing, Test Backups & Coverage
+# ---------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+cypress/screenshots/
+cypress/videos/
+mongomock_backup/
+
+# ---------------------------------------------------------------------
+# Node.js & Frontend Build Outputs
+# ---------------------------------------------------------------------
+node_modules/
+node_modules_backup/
+frontend/node_modules/
+frontend/node_modules_backup/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# ---------------------------------------------------------------------
+# Local Databases & Media Caches
+# ---------------------------------------------------------------------
+*.sqlite
+*.sqlite3
+backend/schemes_assistant.db
+audio_cache/
+backend/audio_cache/
+
+# ---------------------------------------------------------------------
+# IDE & Operating System Artifacts
+# ---------------------------------------------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

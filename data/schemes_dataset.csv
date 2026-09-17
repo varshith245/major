@@ -1,0 +1,31 @@
+scheme_id,short_name,scheme_name,ministry,level,state,category,benefit_amount,min_age,max_age,gender,max_annual_income,landholding_required,processing_time_days,application_link
+GOI-AGRI-001,PM-KISAN,Pradhan Mantri Kisan Samman Nidhi,Ministry of Agriculture and Farmers Welfare,Central,All-India,Agriculture & Farmers,6000,18,100,Any,-1,True,15,https://pmkisan.gov.in
+GOI-HLTH-002,AB-PMJAY,Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana,Ministry of Health and Family Welfare,Central,All-India,Healthcare,500000,0,120,Any,250000,False,1,https://nha.gov.in / https://beneficiary.nha.gov.in
+GOI-HOUS-003,PMAY-G,Pradhan Mantri Awas Yojana - Gramin,Ministry of Rural Development,Central,All-India,Housing & Shelter,157000,18,100,Any,180000,False,30,https://pmayg.nic.in
+GOI-HOUS-004,PMAY-U,Pradhan Mantri Awas Yojana - Urban,Ministry of Housing and Urban Affairs,Central,All-India,Housing & Shelter,267000,18,70,Any,1800000,False,45,https://pmaymis.gov.in
+GOI-WMN-005,SSY,Sukanya Samriddhi Yojana,Ministry of Finance,Central,All-India,Women & Child,150000,0,10,Female,-1,False,2,https://www.indiapost.gov.in / Any Nationalised Bank
+GOI-MSME-006,PMMY,Pradhan Mantri Mudra Yojana,Ministry of Finance,Central,All-India,MSME & Entrepreneurship,2000000,18,65,Any,-1,False,14,https://www.udyamimitra.in / https://www.mudra.org.in
+GOI-SOC-007,IGNOAPS,Indira Gandhi National Old Age Pension Scheme,Ministry of Rural Development,Central,All-India,Social Welfare & Pensions,18000,60,120,Any,36000,False,30,https://nsap.nic.in
+GOI-FIN-008,PMSBY,Pradhan Mantri Suraksha Bima Yojana,Ministry of Finance,Central,All-India,Financial Inclusion & Insurance,200000,18,70,Any,-1,False,1,https://www.jansuraksha.gov.in
+GOI-FIN-009,PMJJBY,Pradhan Mantri Jeevan Jyoti Bima Yojana,Ministry of Finance,Central,All-India,Financial Inclusion & Insurance,200000,18,50,Any,-1,False,1,https://www.jansuraksha.gov.in
+GOI-PEN-010,APY,Atal Pension Yojana,Ministry of Finance,Central,All-India,Social Welfare & Pensions,60000,18,40,Any,-1,False,3,https://www.npscra.nsdl.co.in / https://www.pfrda.org.in
+GOI-WMN-011,PMMVY,Pradhan Mantri Matru Vandana Yojana,Ministry of Women and Child Development,Central,All-India,Women & Child,6000,19,45,Female,800000,False,15,https://pmmvy.wcd.gov.in
+GOI-ART-012,PM-VISHWAKARMA,PM Vishwakarma Yojana,"Ministry of Micro, Small and Medium Enterprises",Central,All-India,MSME & Entrepreneurship,315000,18,70,Any,-1,False,21,https://pmvishwakarma.gov.in
+GOI-URB-013,PM-SVANIDHI,PM Street Vendor's AtmaNirbhar Nidhi,Ministry of Housing and Urban Affairs,Central,All-India,MSME & Entrepreneurship,50000,18,70,Any,-1,False,7,https://pmsvanidhi.mohua.gov.in
+GOI-ENG-014,PMUY,Pradhan Mantri Ujjwala Yojana 2.0,Ministry of Petroleum and Natural Gas,Central,All-India,Social Welfare & Energy,5200,18,90,Female,200000,False,10,https://www.pmuy.gov.in
+GOI-AGRI-015,PMFBY,Pradhan Mantri Fasal Bima Yojana,Ministry of Agriculture and Farmers Welfare,Central,All-India,Agriculture & Farmers,100000,18,100,Any,-1,True,30,https://pmfby.gov.in
+GOI-FIN-016,STANDUP-INDIA,Stand-Up India Scheme,Ministry of Finance,Central,All-India,MSME & Entrepreneurship,10000000,18,70,Any,-1,False,30,https://www.standupmitra.in
+GOI-EDU-017,PMS-SC-ST,Post Matric Scholarship Scheme for SC/ST Students,Ministry of Social Justice and Empowerment,Central,All-India,Education & Students,50000,15,35,Any,250000,False,45,https://scholarships.gov.in (National Scholarship Portal - NSP)
+GOI-AGRI-018,KCC,Kisan Credit Card Scheme,Ministry of Agriculture and Farmers Welfare,Central,All-India,Agriculture & Farmers,300000,18,75,Any,-1,False,14,https://pmkisan.gov.in / Any Commercial Bank / NABARD
+GOI-SOC-019,IGNWPS,Indira Gandhi National Widow Pension Scheme,Ministry of Rural Development,Central,All-India,Social Welfare & Pensions,18000,40,79,Female,36000,False,30,https://nsap.nic.in
+GOI-SOC-020,RVY,Rashtriya Vayoshri Yojana,Ministry of Social Justice and Empowerment,Central,All-India,Senior Citizens & Disability,15000,60,120,Any,36000,False,15,https://alimco.in / https://socialjustice.gov.in
+GOI-EDU-021,NAPS,PM National Apprenticeship Promotion Scheme,Ministry of Skill Development and Entrepreneurship,Central,All-India,Education & Students,18000,14,35,Any,-1,False,10,https://www.apprenticeshipindia.gov.in
+GOI-MSME-022,PMEGP,Prime Minister's Employment Generation Programme,"Ministry of Micro, Small and Medium Enterprises",Central,All-India,MSME & Entrepreneurship,1750000,18,65,Any,-1,False,45,https://www.kviconline.gov.in/pmegpeportal
+KA-ST-023,YUVA-NIDHI,Yuva Nidhi Scheme (Karnataka),"Department of Skill Development, Entrepreneurship and Livelihood (Karnataka)",State,Karnataka,Education & Students,72000,20,30,Any,-1,False,15,https://sevasindhugs.karnataka.gov.in
+KA-ST-024,GRUHA-LAKSHMI,Gruha Lakshmi Scheme (Karnataka),Department of Women and Child Development (Karnataka),State,Karnataka,Women & Child,24000,18,100,Female,-1,False,10,https://sevasindhugs.karnataka.gov.in
+KA-ST-025,GRUHA-JYOTHI,Gruha Jyothi Scheme (Karnataka),Energy Department (Karnataka),State,Karnataka,Social Welfare & Energy,18000,18,100,Any,-1,False,7,https://sevasindhugs.karnataka.gov.in
+KA-ST-026,SHAKTI-SCHEME,Shakti Scheme (Karnataka),Transport Department (Karnataka),State,Karnataka,Women & Child,15000,0,120,Female,-1,False,0,https://ksrtc.in / https://sevasindhugs.karnataka.gov.in
+KA-ST-027,ANNA-BHAGYA,Anna Bhagya Scheme (Karnataka),"Food, Civil Supplies & Consumer Affairs Department (Karnataka)",State,Karnataka,Social Welfare & Food Security,2040,0,120,Any,120000,False,1,https://ahara.kar.nic.in
+GOI-EDU-028,CSSS,Central Sector Scheme of Scholarship for College and University Students,Ministry of Education (Department of Higher Education),Central,All-India,Education & Students,20000,17,25,Any,450000,False,60,https://scholarships.gov.in (National Scholarship Portal)
+GOI-RUR-029,MGNREGS,Mahatma Gandhi National Rural Employment Guarantee Scheme,Ministry of Rural Development,Central,All-India,Rural Development & Labor,35000,18,75,Any,-1,False,15,https://nrega.nic.in
+GOI-AGRI-030,PM-KMY,Pradhan Mantri Kisan Maandhan Yojana,Ministry of Agriculture and Farmers Welfare,Central,All-India,Agriculture & Farmers,36000,18,40,Any,-1,True,1,https://maandhan.in / https://pmkmy.gov.in
