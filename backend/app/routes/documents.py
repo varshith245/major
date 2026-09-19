@@ -5,6 +5,7 @@ from typing import Optional, List, Dict, Any
 from ..services.mongodb_service import mongodb_service
 from ..services.document_verifier import document_verifier
 from ..services.auth_service import auth_service
+from ..services.audit_service import audit_service
 from ..security.dependencies import get_current_user, get_optional_current_user
 from ..models.schemas import DocumentUploadResponse, DocumentVerificationResponse
 from ..database.connection import get_db
@@ -118,6 +119,23 @@ async def upload_document(
         except Exception as db_err:
             print(f"[Warning] SQL DB sync skipped: {db_err}")
             db.rollback()
+
+        # Record in audit trail for real-time admin monitoring
+        audit_service.log_action(
+            admin_email=current_user.get("email") or f"{user_id}@egovseva.gov.in",
+            admin_name=current_user.get("full_name", "Varshith D"),
+            action="DOCUMENT_UPLOADED",
+            resource=f"{document_type} ({filename})",
+            resource_id=file_id,
+            details={
+                "document_type": document_type,
+                "filename": filename,
+                "file_size": file_size,
+                "scheme_id": scheme_id,
+                "user_id": user_id
+            },
+            status="Verified"
+        )
 
         return DocumentUploadResponse(
             success=True,

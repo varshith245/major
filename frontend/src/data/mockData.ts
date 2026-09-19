@@ -112,38 +112,4 @@ export const CITIZEN_STORIES = [
   }
 ];
 
-export const INITIAL_APPLICATION_HISTORY: ApplicationRecord[] = [
-  {
-    id: 'APP-2026-8812',
-    scheme_id: 'GOI-AGRI-001',
-    scheme_name: 'PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)',
-    category: 'Agriculture & Rural',
-    status: 'Approved',
-    submission_date: '12 Jan 2026',
-    last_updated: '02 Feb 2026',
-    reference_no: 'PMKISAN-KA-992182',
-    portal_url: 'https://pmkisan.gov.in'
-  },
-  {
-    id: 'APP-2026-9041',
-    scheme_id: 'GOI-HLTH-002',
-    scheme_name: 'Ayushman Bharat (AB-PMJAY)',
-    category: 'Healthcare & Insurance',
-    status: 'Under Review',
-    submission_date: '18 Feb 2026',
-    last_updated: '28 Feb 2026',
-    reference_no: 'PMJAY-EKYC-40912',
-    portal_url: 'https://pmjay.gov.in'
-  },
-  {
-    id: 'APP-2026-9210',
-    scheme_id: 'KAR-GUAR-001',
-    scheme_name: 'Gruha Lakshmi Scheme',
-    category: 'Women & Child Welfare',
-    status: 'Submitted',
-    submission_date: '01 Mar 2026',
-    last_updated: '01 Mar 2026',
-    reference_no: 'SEVA-GL-2026-0914',
-    portal_url: 'https://sevasindhu.karnataka.gov.in'
-  }
-];
+export const INITIAL_APPLICATION_HISTORY: ApplicationRecord[] = [];

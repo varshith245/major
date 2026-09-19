@@ -194,7 +194,20 @@ export const AdminAuditLogsPage: React.FC = () => {
 
                       {/* Actor */}
                       <td className="py-3 px-4">
-                        <p className="font-bold text-slate-900">{log.admin_name || 'Administrator'}</p>
+                        <div className="flex items-center gap-1.5">
+                          <p className="font-bold text-slate-900">
+                            {(log.admin_name || 'Administrator').replace(/Ramesh Kumar/g, 'Varshith D')}
+                          </p>
+                          <span className={`text-[9px] font-bold px-1.5 py-0.2 rounded-md ${
+                            (log.action.includes('CITIZEN') || log.action.includes('USER') || log.action.includes('APPLICATION') || log.action.includes('DOCUMENT') || log.action.includes('PROFILE') || log.action.includes('ELIGIBILITY') || log.admin_name?.includes('Varshith'))
+                              ? 'bg-sky-100 text-sky-800'
+                              : 'bg-purple-100 text-purple-800'
+                          }`}>
+                            {(log.action.includes('CITIZEN') || log.action.includes('USER') || log.action.includes('APPLICATION') || log.action.includes('DOCUMENT') || log.action.includes('PROFILE') || log.action.includes('ELIGIBILITY') || log.admin_name?.includes('Varshith'))
+                              ? 'Citizen'
+                              : 'Admin'}
+                          </span>
+                        </div>
                         <span className="text-[10px] text-slate-400 font-mono">{log.admin_email}</span>
                       </td>
 

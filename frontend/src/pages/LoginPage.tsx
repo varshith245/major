@@ -131,7 +131,7 @@ export const LoginPage: React.FC = () => {
                 required
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                placeholder="citizen@egovseva.gov.in"
+                placeholder="varshithvarshithd@gmail.com"
                 className="w-full text-sm pl-10 pr-4 py-3 rounded-xl border border-slate-300 focus:border-govblue-600 focus:ring-1 focus:ring-govblue-600 outline-none transition bg-white/80"
               />
             </div>

@@ -238,40 +238,83 @@ export const AdminDashboardPage: React.FC = () => {
 
       {/* Row 3: Recent Activity & System Health Services */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Recent Activity Feed */}
+        {/* Integrated Real-Time Citizen & Administrative Activity Feed */}
         <div className="lg:col-span-2 bg-white p-6 rounded-3xl border border-slate-200/80 shadow-xs space-y-4">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-sm font-bold text-slate-900 font-heading">Recent Administrative Activity</h3>
-              <p className="text-xs text-slate-500">Audit trail of system events, queries, and updates</p>
+              <div className="flex items-center gap-2">
+                <h3 className="text-sm font-bold text-slate-900 font-heading">Recent Citizen & Administrative Activity</h3>
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-emerald-50 text-emerald-700 border border-emerald-200">
+                  Live Stream
+                </span>
+              </div>
+              <p className="text-xs text-slate-500">Chronological telemetry of citizen applications, vault uploads, logins, and audit events</p>
             </div>
-            <Link to="/admin/audit-logs" className="text-xs font-bold text-govblue-700 hover:underline">
-              Audit Logs →
+            <Link to="/admin/audit-logs" className="text-xs font-bold text-govblue-700 hover:underline flex items-center gap-1">
+              <span>Audit Trail</span>
+              <span>→</span>
             </Link>
           </div>
 
-          <div className="divide-y divide-slate-100">
-            {data.recent_activity.map((act) => (
-              <div key={act.id} className="py-3 flex items-start justify-between gap-3 text-xs">
-                <div className="flex items-start gap-2.5">
-                  <span className="w-2 h-2 rounded-full bg-govblue-600 mt-1.5 shrink-0" />
-                  <div>
-                    <p className="font-bold text-slate-800">{act.action}</p>
-                    <p className="text-[11px] text-slate-500">
-                      By <span className="font-medium text-slate-700">{act.actor}</span> • {act.resource}
-                    </p>
-                  </div>
-                </div>
-                <div className="text-right shrink-0">
-                  <span className="px-2 py-0.5 rounded-full text-[9px] font-black uppercase bg-emerald-50 text-emerald-800 border border-emerald-200">
-                    {act.status}
-                  </span>
-                  <p className="text-[10px] text-slate-400 mt-0.5">
-                    {new Date(act.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                  </p>
-                </div>
+          <div className="divide-y divide-slate-100 max-h-[380px] overflow-y-auto pr-1">
+            {data.recent_activity.length === 0 ? (
+              <div className="py-8 text-center text-xs text-slate-400">
+                No recent activity recorded yet.
               </div>
-            ))}
+            ) : (
+              data.recent_activity.map((act) => {
+                const isCitizen = act.actor.toLowerCase().includes('varshith') || 
+                                  act.action.toLowerCase().includes('citizen') ||
+                                  act.action.toLowerCase().includes('application') ||
+                                  act.action.toLowerCase().includes('document') ||
+                                  act.action.toLowerCase().includes('eligibility') ||
+                                  act.action.toLowerCase().includes('query');
+
+                return (
+                  <div key={act.id} className="py-3 flex items-start justify-between gap-3 text-xs hover:bg-slate-50/60 rounded-xl px-2 -mx-2 transition">
+                    <div className="flex items-start gap-3">
+                      <div className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 mt-0.5 ${
+                        isCitizen 
+                          ? 'bg-sky-50 text-sky-700 border border-sky-200' 
+                          : 'bg-purple-50 text-purple-700 border border-purple-200'
+                      }`}>
+                        {isCitizen ? <Users className="w-4 h-4" /> : <ShieldCheck className="w-4 h-4" />}
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <p className="font-bold text-slate-900">{act.action}</p>
+                          <span className={`text-[9px] font-bold px-1.5 py-0.2 rounded-md ${
+                            isCitizen 
+                              ? 'bg-sky-100 text-sky-800' 
+                              : 'bg-purple-100 text-purple-800'
+                          }`}>
+                            {isCitizen ? 'CITIZEN' : 'ADMIN'}
+                          </span>
+                        </div>
+                        <p className="text-[11px] text-slate-500 mt-0.5">
+                          Actor: <strong className="text-slate-700 font-semibold">{act.actor}</strong> • <span className="text-slate-600">{act.resource}</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <span className={`px-2 py-0.5 rounded-full text-[9px] font-black uppercase border ${
+                        act.status.toLowerCase().includes('eligible') || act.status.toLowerCase().includes('success') || act.status.toLowerCase().includes('verified')
+                          ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
+                          : act.status.toLowerCase().includes('submitted') || act.status.toLowerCase().includes('review')
+                          ? 'bg-sky-50 text-sky-800 border-sky-200'
+                          : 'bg-slate-50 text-slate-700 border-slate-200'
+                      }`}>
+                        {act.status}
+                      </span>
+                      <p className="text-[10px] text-slate-400 mt-1 flex items-center justify-end gap-1 font-mono">
+                        <Clock className="w-3 h-3 text-slate-300" />
+                        {new Date(act.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })
+            )}
           </div>
         </div>
 

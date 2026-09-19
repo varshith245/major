@@ -21,6 +21,7 @@ from ..models.schemas import (
 )
 from ..services.auth_service import auth_service
 from ..services.otp_service import otp_service
+from ..services.audit_service import audit_service
 from ..security.dependencies import get_current_user, require_role
 from ..database.mongodb import mongodb_manager
 
@@ -72,6 +73,16 @@ async def register(req: UserRegisterRequest):
             is_active=user_doc.get("is_active", True),
             user_profile=user_doc.get("user_profile"),
             created_at=user_doc.get("created_at")
+        )
+
+        # Record in central audit trail for real-time admin monitoring
+        audit_service.log_action(
+            admin_email=user_doc["email"],
+            admin_name=user_doc["full_name"],
+            action="CITIZEN_REGISTERED",
+            resource="Citizen Portal Account",
+            resource_id=user_doc["user_id"],
+            details={"role": "user", "phone": user_doc.get("phone_number")}
         )
 
         return TokenResponse(
@@ -147,6 +158,16 @@ async def login(req: UserLoginRequest):
         created_at=user_doc.get("created_at")
     )
 
+    # Record in central audit trail for real-time admin monitoring
+    audit_service.log_action(
+        admin_email=user_doc["email"],
+        admin_name=user_doc["full_name"],
+        action="USER_SIGNED_IN",
+        resource="Web Portal Session",
+        resource_id=user_doc["user_id"],
+        details={"role": user_doc.get("role", "user")}
+    )
+
     return TokenResponse(
         access_token=access_token,
         token_type="bearer",
@@ -180,6 +201,17 @@ async def update_profile(
     """
     auth_service.update_user_profile(current_user["user_id"], req.user_profile.dict())
     updated_user = auth_service.get_user_by_id(current_user["user_id"])
+
+    # Record profile update in audit trail
+    audit_service.log_action(
+        admin_email=current_user["email"],
+        admin_name=current_user.get("full_name", "Citizen"),
+        action="PROFILE_UPDATED",
+        resource="Citizen Demographic Assessment Profile",
+        resource_id=current_user["user_id"],
+        details={"state": req.user_profile.state, "occupation": req.user_profile.occupation, "income": req.user_profile.annual_income}
+    )
+
     return UserResponse(
         user_id=updated_user["user_id"],
         email=updated_user["email"],
@@ -511,6 +543,16 @@ async def login_with_otp(req: OtpLoginRequest):
         created_at=user_doc.get("created_at")
     )
 
+    # Record in audit trail
+    audit_service.log_action(
+        admin_email=user_doc["email"],
+        admin_name=user_doc["full_name"],
+        action="USER_SIGNED_IN",
+        resource="Web Portal Session (OTP)",
+        resource_id=user_doc["user_id"],
+        details={"role": user_doc.get("role", "user")}
+    )
+
     return TokenResponse(
         access_token=access_token,
         token_type="bearer",
@@ -601,6 +643,16 @@ async def register_with_otp(req: UserRegisterWithOtpRequest):
             is_active=user_doc.get("is_active", True),
             user_profile=user_doc.get("user_profile"),
             created_at=user_doc.get("created_at")
+        )
+
+        # Record in audit trail
+        audit_service.log_action(
+            admin_email=user_doc["email"],
+            admin_name=user_doc["full_name"],
+            action="CITIZEN_REGISTERED",
+            resource="Citizen Portal Account (OTP)",
+            resource_id=user_doc["user_id"],
+            details={"role": "user", "phone": user_doc.get("phone_number")}
         )
 
         return TokenResponse(

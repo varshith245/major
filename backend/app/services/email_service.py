@@ -16,9 +16,9 @@ class EmailService:
         load_dotenv(override=True)
         self.smtp_host = os.getenv("SMTP_HOST", "smtp-relay.brevo.com")
         self.smtp_port = int(os.getenv("SMTP_PORT", "587"))
-        self.smtp_user = os.getenv("SMTP_USER", "")
+        self.smtp_user = os.getenv("SMTP_USER", "9fb303001@smtp-brevo.com")
         self.smtp_password = os.getenv("SMTP_PASSWORD", "")
-        self.from_email = os.getenv("SMTP_FROM_EMAIL", "noreply@egovseva.gov.in")
+        self.from_email = os.getenv("SMTP_FROM_EMAIL", "varshithvarshithd@gmail.com")
         self.from_name = os.getenv("SMTP_FROM_NAME", "eGovSeva National Portal")
         self.timeout = float(os.getenv("SMTP_TIMEOUT", "5"))
 

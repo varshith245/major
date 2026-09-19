@@ -33,6 +33,23 @@ def evaluate_profile(profile: UserProfile):
             )
             db.add(entry)
             db.commit()
+
+            # Record in central audit trail for real-time admin monitoring
+            from ..services.audit_service import audit_service
+            audit_service.log_action(
+                admin_email="citizen@egovseva.gov.in",
+                admin_name="Varshith D",
+                action="ELIGIBILITY_EVALUATION",
+                resource=f"Scheme: {top_eligible.scheme_name if hasattr(top_eligible, 'scheme_name') else top_eligible.scheme_id}",
+                resource_id=top_eligible.scheme_id,
+                details={
+                    "status": "Eligible" if top_eligible.is_eligible else "Not Eligible",
+                    "state": profile.state,
+                    "occupation": profile.occupation,
+                    "annual_income": profile.annual_income
+                },
+                status="Eligible" if top_eligible.is_eligible else "Not Eligible"
+            )
         db.close()
     except Exception as e:
         print(f"[EligibilityRoute] Notice: Could not log assessment to DB: {e}")

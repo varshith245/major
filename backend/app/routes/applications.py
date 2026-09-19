@@ -110,6 +110,22 @@ async def submit_application(
         {"$set": journey_doc},
         upsert=True
     )
+
+    # Record in audit trail for real-time admin monitoring
+    audit_service.log_action(
+        admin_email=user.get("email") or f"{user['user_id']}@egovseva.gov.in",
+        admin_name=user.get("full_name") or "Varshith D",
+        action="APPLICATION_SUBMITTED",
+        resource=f"Scheme: {req.scheme_name}",
+        resource_id=app_id,
+        details={
+            "scheme_id": req.scheme_id,
+            "ref_no": ref_no,
+            "status": status_val,
+            "user_id": user["user_id"]
+        },
+        status=status_val
+    )
     
     doc.pop("_id", None)
     return ApplicationResponse(**doc)

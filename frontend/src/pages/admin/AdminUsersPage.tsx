@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { adminService, AdminUser } from '../../services/adminService';
 import { useAuth } from '../../context/AuthContext';
 import { useToast } from '../../context/ToastContext';
@@ -23,7 +24,10 @@ import {
   Wallet,
   Building,
   User as UserIcon,
-  ShieldAlert
+  ShieldAlert,
+  FileCheck,
+  Clock,
+  ExternalLink
 } from 'lucide-react';
 
 export const AdminUsersPage: React.FC = () => {
@@ -38,9 +42,31 @@ export const AdminUsersPage: React.FC = () => {
 
   // Selected user for details drawer
   const [selectedUser, setSelectedUser] = useState<AdminUser | null>(null);
+  const [userApps, setUserApps] = useState<any[]>([]);
+  const [userLogs, setUserLogs] = useState<any[]>([]);
+  const [loadingUserActivity, setLoadingUserActivity] = useState(false);
+
   // User to delete
   const [deleteTarget, setDeleteTarget] = useState<AdminUser | null>(null);
   const [actionInProgress, setActionInProgress] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!selectedUser) {
+      setUserApps([]);
+      setUserLogs([]);
+      return;
+    }
+    setLoadingUserActivity(true);
+    Promise.all([
+      adminService.getApplications({ user_id: selectedUser.user_id }).catch(() => []),
+      adminService.getAuditLogs({ search: selectedUser.email, limit: 8 }).then(r => r.logs || []).catch(() => [])
+    ]).then(([apps, logs]) => {
+      setUserApps(apps || []);
+      setUserLogs(logs || []);
+    }).finally(() => {
+      setLoadingUserActivity(false);
+    });
+  }, [selectedUser]);
 
   const loadUsers = async () => {
     setLoading(true);
@@ -522,6 +548,84 @@ export const AdminUsersPage: React.FC = () => {
                 ) : (
                   <div className="p-4 rounded-xl bg-slate-50 border border-dashed border-slate-200 text-center text-xs text-slate-400">
                     No onboarding questionnaire completed yet by this user.
+                  </div>
+                )}
+              </div>
+
+              {/* Citizen Live Scheme Applications */}
+              <div>
+                <div className="flex items-center justify-between mb-3">
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
+                    <FileCheck className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>Submitted Scheme Applications ({userApps.length})</span>
+                  </h4>
+                  <Link to="/admin/applications" className="text-[11px] font-bold text-govblue-700 hover:underline flex items-center gap-1">
+                    <span>Manage Queue</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </Link>
+                </div>
+
+                {loadingUserActivity ? (
+                  <div className="py-4 text-center text-xs text-slate-400 flex items-center justify-center gap-2">
+                    <RefreshCw className="w-3.5 h-3.5 animate-spin text-govblue-600" />
+                    <span>Retrieving citizen applications...</span>
+                  </div>
+                ) : userApps.length === 0 ? (
+                  <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-100 text-center text-xs text-slate-400">
+                    No applications submitted yet by this citizen.
+                  </div>
+                ) : (
+                  <div className="space-y-2">
+                    {userApps.map((app: any) => (
+                      <div key={app.id} className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-between text-xs">
+                        <div>
+                          <p className="font-bold text-slate-900">{app.scheme_name}</p>
+                          <p className="text-[10px] text-slate-400 font-mono mt-0.5">Ref #{app.reference_no} • {app.current_stage}</p>
+                        </div>
+                        <span className={`px-2 py-0.5 rounded-full text-[9px] font-black uppercase border ${
+                          app.status === 'Approved' ? 'bg-emerald-50 text-emerald-800 border-emerald-200' :
+                          app.status === 'Rejected' ? 'bg-rose-50 text-rose-800 border-rose-200' :
+                          'bg-sky-50 text-sky-800 border-sky-200'
+                        }`}>
+                          {app.status}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Citizen Activity Trail */}
+              <div>
+                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3 flex items-center gap-1.5">
+                  <Clock className="w-3.5 h-3.5 text-govblue-600" />
+                  <span>Citizen Activity Trail</span>
+                </h4>
+
+                {loadingUserActivity ? (
+                  <div className="py-4 text-center text-xs text-slate-400 flex items-center justify-center gap-2">
+                    <RefreshCw className="w-3.5 h-3.5 animate-spin text-govblue-600" />
+                    <span>Loading activity trail...</span>
+                  </div>
+                ) : userLogs.length === 0 ? (
+                  <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-100 text-center text-xs text-slate-400">
+                    No individual audit logs recorded yet.
+                  </div>
+                ) : (
+                  <div className="space-y-2">
+                    {userLogs.map((log: any) => (
+                      <div key={log.id} className="p-2.5 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-between text-xs">
+                        <div>
+                          <p className="font-bold text-slate-800">{log.action.replace(/_/g, ' ')}</p>
+                          <p className="text-[10px] text-slate-400 truncate max-w-[280px]">{log.resource}</p>
+                        </div>
+                        <div className="text-right shrink-0">
+                          <span className="text-[10px] text-slate-400 block font-mono">
+                            {new Date(log.timestamp).toLocaleDateString([], { month: 'short', day: 'numeric' })}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 )}
               </div>

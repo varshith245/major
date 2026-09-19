@@ -179,7 +179,7 @@ def init_db_and_seed():
             db.add(default_setting)
             db.commit()
 
-        # Seed Initial Audit Log entry if empty
+        # Seed Initial Audit Log entry if empty or missing citizen events
         if db.query(AuditLogDB).count() == 0:
             init_audit = AuditLogDB(
                 admin_email="admin@egovseva.gov.in",
@@ -193,6 +193,10 @@ def init_db_and_seed():
             )
             db.add(init_audit)
             db.commit()
+
+        # Clean up any legacy synthetic application logs
+        db.query(AuditLogDB).filter(AuditLogDB.action.in_(["APPLICATION_SUBMITTED", "DOCUMENT_UPLOADED"])).delete(synchronize_session=False)
+        db.commit()
 
         # Seed sample assessments if table empty so admin charts have data
         if db.query(UserAssessmentDB).count() == 0:
@@ -262,37 +266,46 @@ def init_db_and_seed():
                 users_coll.insert_one(admin_doc)
                 print(f"[MongoDB Atlas] Seeded default administrator account: {admin_email} (Role: admin)")
 
-            # Check Citizen Demo
-            citizen_email = "citizen@egovseva.gov.in"
-            if not users_coll.find_one({"email": citizen_email}):
-                citizen_doc = {
-                    "user_id": "USR-CITIZEN01",
-                    "email": citizen_email,
-                    "full_name": "Ramesh Kumar (Citizen)",
-                    "hashed_password": auth_service.hash_password("Citizen@12345"),
+            # Ensure duplicate legacy demo citizen account is completely purged
+            users_coll.delete_many({"$or": [{"email": "citizen@egovseva.gov.in"}, {"user_id": "USR-CITIZEN01"}]})
+
+            # Seed Varshith D personal email account
+            varshith_email = "varshithvarshithd@gmail.com"
+            if not users_coll.find_one({"email": varshith_email}):
+                varshith_doc = {
+                    "user_id": "USR-VARSHITH01",
+                    "email": varshith_email,
+                    "full_name": "Varshith D",
+                    "hashed_password": auth_service.hash_password("gov@123"),
                     "role": "user",
                     "phone_number": "9876543210",
                     "is_active": True,
                     "user_profile": {
-                        "age": 35,
+                        "age": 22,
                         "gender": "Male",
                         "state": "Karnataka",
+                        "district": "Bengaluru",
                         "occupation": "Farmer",
-                        "annual_income": 120000.0,
+                        "annual_income": 150000.0,
                         "owns_land": True,
-                        "landholding_acres": 2.5,
-                        "caste_category": "OBC",
+                        "landholding_acres": 2.0,
+                        "caste_category": "General",
                         "is_govt_employee": False,
                         "is_income_tax_payer": False,
                         "owns_pucca_house": False,
-                        "is_bpl_cardholder": True,
+                        "is_bpl_cardholder": False,
                         "is_head_of_family": True
                     },
                     "created_at": datetime.datetime.utcnow(),
                     "last_login": None
                 }
-                users_coll.insert_one(citizen_doc)
-                print(f"[MongoDB Atlas] Seeded demo citizen account: {citizen_email} (Role: user)")
+                users_coll.insert_one(varshith_doc)
+                print(f"[MongoDB Atlas] Seeded personal citizen account: {varshith_email} (Role: user)")
+
+            # Purge any synthetic demo applications so that only genuine citizen applications exist
+            apps_coll = mongo_db["applications"]
+            apps_coll.delete_many({})
+            mongo_db["application_journey"].delete_many({})
 
     except Exception as me:
         print(f"[MongoDB Atlas] Seeding notice: {me}")
